@@ -9,7 +9,7 @@
       h1 Introducción
     .row.justify-content-center
       .col-lg-9.mb-lg-0.mb-3
-        p.mb-4 Para generar los estados financieros de propósito general es indispensable realizar el cierre contable, cuyo objetivo es reflejar el saldo correcto de las cuentas. En dado caso que se presenten diferencias se deben realizar los respectivos asientos de ajuste.
+        p.mb-4 Para generar los estados financieros de propósito general, es indispensable realizar el cierre contable, cuyo objetivo es reflejar el saldo correcto de las cuentas. En dado caso que se presenten diferencias, se deben realizar los respectivos asientos de ajuste.
         .row.justify-content-center.g-0
           .col-lg-6.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/1.png', alt='')
           .col-lg-6

@@ -10,7 +10,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/3.png', alt='')
         .col-lg-7
-          .p-4: p.mb-0 Para realizar el cierre contable se requiere haber efectuado los procedimientos del ciclo contable, los cuales hacen referencia al proceso de reconocimiento y medición de los hechos económicos. Estos deben presentarse de forma ordenada, de acuerdo con el período de tiempo; teniendo en cuenta las normas contables, financieras, tributarias y laborales.
+          .p-4: p.mb-0 Para realizar el cierre contable, se requiere haber efectuado los procedimientos del ciclo contable, los cuales hacen referencia al proceso de reconocimiento y medición de los hechos económicos. Estos deben presentarse de forma ordenada, de acuerdo con el período de tiempo, teniendo en cuenta las normas contables, financieras, tributarias y laborales.
     p.mb-4 En el procedimiento del ciclo contable se tienen en cuenta las siguientes actividades:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
@@ -41,17 +41,17 @@
             p.mb-0 Se emite el comprobante de cierre.
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 Finalmente, se elaboran los estados financieros de propósito general: estado de situación financiera, estado de resultados, estado de cambio en el patrimonio, estados de flujos de efectivo y notas
+            p.mb-0 Finalmente, se elaboran los estados financieros de propósito general: estado de situación financiera, estado de resultados, estado de cambio en el patrimonio, estados de flujos de efectivo y notas.
       .col-lg-5.col-7.mb-lg-0.mb-3
         img(src='@/assets/curso/temas/4.svg', alt='')
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 1.
       span Diagrama del ciclo contable
     img.mb-4(src='@/assets/curso/temas/5.png', alt='Diagrama circular sobre el ciclo contable que incluye las siguientes etapas: realización del hecho económico, generación de documentos contables, reconocimiento y medición inicial, registro en el libro diario, traslado de la información al libro mayor y balances, elaboración del balance de comprobación, asientos de ajuste, comprobante de cierre y elaboración de estados financieros de propósito general.')
-    p.mb-4 Los asientos de ajuste hacen referencia al reconocimiento y medición de hechos económicos que presentan errores, omisiones y ajustes al valor real, con el fin de reflejar la realidad económica de la empresa y de esta manera presentar los estados financieros de forma comprensible, útil, oportuna y confiable para la toma de decisiones. Estos ajustes carecen del soporte contable específico; por lo tanto, se registran a través de una nota de contabilidad, con el fin de evidenciar el tipo de ajustes realizado en el respectivo período contable.
+    p.mb-4 Los asientos de ajuste hacen referencia al reconocimiento y medición de hechos económicos que presentan errores, omisiones y ajustes al valor real, con el fin de reflejar la realidad económica de la empresa y de esta manera presentar los estados financieros de forma comprensible, útil, oportuna y confiable para la toma de decisiones. Estos ajustes carecen del soporte contable específico; por lo tanto, se registran a través de una nota de contabilidad, con el fin de evidenciar el tipo de ajuste realizado en el respectivo período contable.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
-        p.mb-4 Los ajustes que se realizan con mayor frecuencia, afectando el período actual y posteriores son:
+        p.mb-4 Los ajustes que se realizan con mayor frecuencia, afectando el período actual y posteriores, son:
         ul.lista-ul
           li.d-flex
             i.fas.fa-angle-right
@@ -110,11 +110,11 @@
           .row.justify-content-center.align-items-center
             .col-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/8.svg', alt='')
             .col-lg-10
-              p.mb-0 Esta Norma relaciona los procedimientos aplicables a los activos, con el fin de reflejar el valor real de los hechos económicos. El deterioro hace referencia a la pérdida que sufren los activos cuando el valor registrado en libros es mayor al importe recuperable; es decir, el valor al cual se pretende vender o valorar dicho activo, menos los costos y uso del bien.
+              p.mb-0 Esta norma relaciona los procedimientos aplicables a los activos, con el fin de reflejar el valor real de los hechos económicos. El deterioro hace referencia a la pérdida que sufren los activos cuando el valor registrado en libros es mayor al importe recuperable; es decir, el valor al cual se pretende vender o valorar dicho activo, menos los costos y uso del bien.
         p.mb-0 De acuerdo con la NIC 36, el importe recuperable es “el mayor entre su valor razonable menos los costos de disposición y su valor en uso” (p.1695).
           br
           br
-          |Según la NIIF 13 (2020) la medición del valor razonable es “el precio que se recibiría por vender un activo o que se pagaría por transferir un pasivo en una transacción ordenada entre participantes de mercado en la fecha de la medición” (p.3).
+          |Según la NIIF 13 (2020). la medición del valor razonable es “el precio que se recibiría por vender un activo o que se pagaría por transferir un pasivo en una transacción ordenada entre participantes de mercado en la fecha de la medición” (p.3).
           br
           br
           |#[spam.fw-bold El objetivo y alcance de la presente norma son los siguientes:]
@@ -125,12 +125,12 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/3.png', alt='')
         .col-lg-7
-          .p-4: p.mb-0 El objetivo de esta Norma consiste en establecer los procedimientos que una entidad aplicará para asegurar que sus activos están contabilizados por un importe que no sea superior a su importe recuperable. Un activo estará contabilizado por encima de su importe recuperable cuando su importe en libros exceda del importe que se pueda recuperar del mismo a través de su utilización o de su venta. Si este fuera el caso, el activo se presentaría como deteriorado, y la norma exige que la entidad reconozca una pérdida por deterioro del valor de ese activo. En la Norma también se especifica cuándo la entidad revertirá la pérdida por deterioro del valor, así como la información a revelar.
+          .p-4: p.mb-0 El objetivo de esta norma consiste en establecer los procedimientos que una entidad aplicará para asegurar que sus activos están contabilizados por un importe que no sea superior a su importe recuperable. Un activo estará contabilizado por encima de su importe recuperable cuando su importe en libros exceda del importe que se pueda recuperar del mismo a través de su utilización o de su venta. Si este fuera el caso, el activo se presentaría como deteriorado, y la norma exige que la entidad reconozca una pérdida por deterioro del valor de ese activo. En la norma también se especifica cuándo la entidad revertirá la pérdida por deterioro del valor, así como la información a revelar.
     .titulo-tres
       h3 Alcance
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
-        p.mb-4 Los ajustes que se realizan con mayor frecuencia, afectando el período actual y posteriores son:
+        p.mb-4 Los ajustes que se realizan con mayor frecuencia, afectando el período actual y posteriores, son:
         ul.lista-ul
           li.d-flex
             i.fas.fa-angle-right
@@ -166,13 +166,13 @@
 
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 Activos no corrientes (o grupos de activos para su disposición) clasificados como mantenidos para la venta de acuerdo con la NIIF 5 Activos no Corrientes Mantenidos Para la Venta y Operaciones Discontinuadas
+            p.mb-0 Activos no corrientes (o grupos de activos para su disposición) clasificados como mantenidos para la venta de acuerdo con la NIIF 5 Activos no Corrientes Mantenidos Para la Venta y Operaciones Descontinuadas.
       .col-lg-5.col-7.mb-lg-0.mb-3
         img(src='@/assets/curso/temas/10.svg', alt='')
-    p.mb-4 Cabe resaltar, que la empresa al finalizar cada período contable realizará la prueba de deterioro y verificará si hay indicios de este, con el fin de realizar los ajustes a que haya lugar; para ello, realizará la comparación del valor en libros con el importe recuperable, este proceso se debe realizar por lo menos una vez al año.
+    p.mb-4 Cabe resaltar que la empresa, al finalizar cada período contable, realizará la prueba de deterioro y verificará si hay indicios de este, con el fin de realizar los ajustes a que haya lugar; para ello, realizará la comparación del valor en libros con el importe recuperable, este proceso se debe realizar por lo menos una vez al año.
       br
       br
-      |La NIC 36, considera indicios de deterioro los que se transcriben a continuación:
+      |La NIC 36 considera indicios de deterioro los que se transcriben a continuación:
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta morado-oscuro")
@@ -198,10 +198,10 @@
 
               li.d-flex
                 i.fas.fa-angle-right
-                p.mb-0 Durante el período han tenido lugar, o se espera que tengan lugar en un futuro inmediato, cambios significativos en el alcance o manera en que se usa o se espera usar el activo, que afectarán desfavorablemente a la entidad. Estos cambios incluyen el hecho de que el activo esté ocioso, planes de discontinuación o restructuración de la operación a la que pertenece el activo, planes para disponer del activo antes de la fecha prevista, y la reconsideración como finita de la vida útil de un activo, en lugar de indefinida.
+                p.mb-0 Durante el período han tenido lugar, o se espera que tengan lugar en un futuro inmediato, cambios significativos en el alcance o manera en que se usa o se espera usar el activo, que afectarán desfavorablemente a la entidad. Estos cambios incluyen el hecho de que el activo esté ocioso, planes de discontinuación o reestructuración de la operación a la que pertenece el activo, planes para disponer del activo antes de la fecha prevista, y la reconsideración como finita de la vida útil de un activo, en lugar de indefinida.
               li.d-flex
                 i.fas.fa-angle-right
-                p.mb-0 Según la NIC se dispone de evidencia procedente de informes internos, que indica que el rendimiento económico del activo es, o va a ser, peor que el esperado. (p.4.)
+                p.mb-0 Según la NIC, se dispone de evidencia procedente de informes internos, que indica que el rendimiento económico del activo es, o va a ser, peor que el esperado. (Pág. 4.)
       .col-lg-4.col-7.mb-lg-0.mb-3
         img(src='@/assets/curso/temas/11.png', alt='')
     .row.justify-content-center.mb-5
@@ -211,7 +211,7 @@
         ul.lista-ul
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 El importe del deterioro debe registrarse en el resultado del período, excepto los activos reconocidos por su valor revaluado de acuerdo con la Norma Internacional de Contabilidad (NIC) 16.
+            p.mb-0 El importe del deterioro, debe registrarse en el resultado del período, excepto los activos reconocidos por su valor revaluado de acuerdo con la Norma Internacional de Contabilidad (NIC) 16.
 
           li.d-flex
             i.fas.fa-angle-right
@@ -219,11 +219,11 @@
 
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 En el momento que se reconoce la pérdida por deterioro se debe determinar los activos y pasivos por impuestos diferidos; para ello, se realiza la comparación del valor en libros del activo con su base fiscal, de acuerdo con la Norma Internacional de Contabilidad (NIC 12).
+            p.mb-0 En el momento que se reconoce la pérdida por deterioro se deben determinar los activos y pasivos por impuestos diferidos; para ello, se realiza la comparación del valor en libros del activo con su base fiscal, de acuerdo con la Norma Internacional de Contabilidad (NIC 12).
 
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 Cuando existe indicios de deterioro, es indispensable estimar el importe recuperable de forma individual o en su defecto de la unidad generadora de efectivo (conjunto de activos que generan entradas de efectivo) siempre y cuando no esté por debajo del mayor valor entre los siguientes: el valor razonable menos los costos de disposición, el valor en uso y cero.
+            p.mb-0 Cuando existen indicios de deterioro, es indispensable estimar el importe recuperable de forma individual o, en su defecto, de la unidad generadora de efectivo (conjunto de activos que generan entradas de efectivo), siempre y cuando no esté por debajo del mayor valor entre los siguientes: el valor razonable menos los costos de disposición, el valor en uso y cero.
 
           li.d-flex
             i.fas.fa-angle-right
@@ -288,16 +288,16 @@
                     tbody
                       tr
                         td Costo Activo	
-                        td $ 100.000.000
+                        td $100.000.000
                       tr
                         td IVA 19 %
-                        td $ 19.000.000
+                        td $19.000.000
                       tr
                         td Instalación
-                        td $ 15.000.000
+                        td $15.000.000
                       tr
                         td Costo Adquisición
-                        td $ 134.000.000
+                        td $134.000.000
                 .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                   h5 Tabla 2. 
                   span Medición inicial contable
@@ -311,12 +311,12 @@
                     tbody
                       tr
                         td PPYE
-                        td $ 134.000.000
+                        td $134.000.000
                         td 
                       tr
                         td Cuentas por pagar
                         td 
-                        td $ 134.000.000
+                        td $134.000.000
           div
             .row.justify-content-center.mb-5
               .col-lg-10
@@ -332,13 +332,13 @@
                     tbody
                       tr
                         td Costo Activo
-                        td $ 134.000.000         
+                        td $134.000.000         
                       tr
                         td Valor residual
-                        td $ 10.000.000        
+                        td $10.000.000        
                       tr
                         td Importe de depreciación
-                        td $ 124.000.000           
+                        td $124.000.000           
                 .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                   h5 Tabla 4. 
                   span Vida útil y depreciación
@@ -379,24 +379,24 @@
                     tbody
                       tr
                         td Agosto (10 días)
-                        td $ 291.104              
-                        td $ 291.104              
+                        td $291.104              
+                        td $291.104              
                       tr
                         td Septiembre (30 días)
-                        td $ 1.033.333              
-                        td $ 1.033.333              
+                        td $1.033.333              
+                        td $1.033.333              
                       tr
                         td Octubre (30 días)
-                        td $ 1.033.333              
-                        td $ 1.033.333              
+                        td $1.033.333              
+                        td $1.033.333              
                       tr
                         td Noviembre (30 días)
-                        td $ 1.033.333              
-                        td $ 1.033.333              
+                        td $1.033.333              
+                        td $1.033.333              
                       tr
                         td Diciembre (30 días)
-                        td $ 1.033.333              
-                        td $ 1.033.333 
+                        td $1.033.333              
+                        td $1.033.333 
                 p.mb-0 #[b Supuesto:] Prueba Deterioro: Importe recuperable < Valor en libros Deterioro             
           div
             .row.justify-content-center.mb-5
@@ -413,16 +413,16 @@
                     tbody
                       tr
                         td Costo activo
-                        td $ 134.000.000         
+                        td $134.000.000         
                       tr
                         td Depreciación acumulada (ajuste)
-                        td $ 4.424.166         
+                        td $4.424.166         
                       tr
                         td Importe en libros
-                        td $ 129.575.834
-                p.mb-4 #[b Importe recuperable:] $ 105.000.000
+                        td $129.575.834
+                p.mb-4 #[b Importe recuperable:] $105.000.000
                   br
-                  |#[b Deterioro:] $ 24.575.834         
+                  |#[b Deterioro:] $24.575.834         
                 .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                   h5 Tabla 7. 
                   span Registro del deterioro
@@ -436,12 +436,12 @@
                     tbody
                       tr
                         td Gasto Deterioro PPE
-                        td $ 24.315.564         
+                        td $24.315.564         
                         td          
                       tr
                         td Deterioro PPE
                         td           
-                        td $ 24.315.564         
+                        td $2.315.564         
     p.mb-4 Cabe resaltar, que hay Normas Internacionales que relacionan en su contenido las directrices para el reconocimiento del deterioro, entre ellas tenemos:
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 2.
@@ -479,13 +479,13 @@
             tbody
               tr
                 td Precio de adquisición
-                td $ 2.500.000
+                td $2.500.000
               tr
                 td Impuestos recuperables
                 td $ 0
               tr.fw-bold
                 td Total costo adquisición
-                td $ 2.500.000
+                td $2.500.000
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 9. 
           span Registro contable de la adquisición
@@ -499,28 +499,28 @@
             tbody
               tr
                 td Inventarios
-                td $ 2.500.000
+                td $2.500.000
                 td
               tr
                 td IVA
-                td $ 475.000
+                td $475.000
                 td
               tr
                 td RF 2,5 %
                 td
-                td $ 62.500
+                td $62.500
               tr
                 td RICA (11,04 * 1000)
                 td
-                td $ 27.600
+                td $27.600
               tr
                 td Proveedores Nacionales
                 td
-                td $ 2.884.900
+                td $2.884.900
               tr.fw-bold
                 td Total
-                td $ 2.975.000
-                td $ 2.975.000
+                td $2.975.000
+                td $2.975.000
     .titulo-tres
       h3 Supuesto deterioro
     p.mb-4 El precio estimado de los inventarios es de $2.900.000 y los gastos de venta son de $600.000
@@ -538,13 +538,13 @@
             tbody
               tr
                 td Valor en libros
-                td $ 2.500.000                
+                td $2.500.000                
               tr
                 td Valor neto realizable (PV - gastos)
-                td $ 2.300.000                 
+                td $2.300.000                 
               tr
                 td.fw-bold Deterioro
-                td $ 200.000                
+                td $200.000                
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 11. 
           span Registro contable del deterioro
@@ -558,13 +558,13 @@
             tbody
               tr
                 td Gastos deterioro
-                td $ 200.000
+                td $200.000
 
                 td                
               tr
                 td Deterioro inventarios
                 td 
-                td $ 200.000
+                td $200.000
     .titulo-tres
       h3 Deterioro Instrumentos Financieros (NIIF) 9
     p.mb-4 Es importante recordar que al estudiar la Norma Internacional de Información Financiera (NIIF) 9 “Instrumentos Financieros”, se analizaron los criterios de reconocimiento, medición, presentación y revelación. Esta norma tiene como objetivo “establecer los principios para la información financiera sobre activos y pasivos financieros, de forma que se presente información útil y relevante para los usuarios de los estados financieros para la evaluación de los importes, calendario e incertidumbre de los flujos de efectivo futuros de la entidad.
@@ -608,16 +608,16 @@
             tbody
               tr
                 td Gastos Deterioro
-                td $ 6.598.139
+                td $6598.139
                 td
               tr
                 td Deterioro clientes
                 td
-                td $ 6.598.139
+                td $6.598.139
               tr
                 td TOTAL	
-                td $ 6.598.139
-                td $ 6.598.139
+                td $6.598.139
+                td $6.598.139
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.2 Depreciaciones
@@ -791,22 +791,22 @@
             tbody
               tr
                 td Costo Activo	
-                td $ 35.000.000
+                td $35.000.000
               tr
                 td IVA
-                td $ 6.650.000
+                td $6.650.000
               tr
                 td MO instalación
-                td $ 300.000
+                td $300.000
               tr
                 td Materiales instalación
-                td $ 180.000
+                td $180.000
               tr
                 td MO instalación
-                td $ 300.000
+                td $300.000
               tr
                 td Costo
-                td $ 42.430.000
+                td $42.430.000
       .col-lg-6.mb-lg-0.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 14.
@@ -820,17 +820,17 @@
                 th Hacer
             tbody
               tr
-                td 	$ 42.430.000 / 15
-                td $ 42.430.000 / 15
-                td $ 2.828.667
+                td 	$42.430.000 / 15
+                td $42.430.000 / 15
+                td $2.828.667
               tr
-                td $ 2.828.667 / 12	
-                td $ 2.828.667 / 12
-                td $ 235.722
+                td  $2.828.667 / 12	
+                td $2.828.667 / 12
+                td $235.722
               tr
-                td 	$ 235.722 / 30
-                td $ 235.722 / 30
-                td $ 7.857
+                td  $235.722 / 30
+                td $235.722 / 30
+                td $7.857
     p.mb-4 El activo se encuentra apto para su uso a partir del 12 de noviembre de 2020; por lo tanto, se tendrá en cuenta dicha fecha para iniciar el reconocimiento de la depreciación; lo que corresponde a 19 días.
     .row.justify-content-center.mb-5
       .col-lg-6.mb-lg-0.mb-3
@@ -847,16 +847,16 @@
             tbody
               tr
                 td Gastos depreciación PPE
-                td $ 149.283      
+                td $149.283      
                 td          
               tr
                 td PPE Depreciación acumulada	
                 td          
-                td $ 149.283        
+                td $149.283        
               tr.fw-bold
                 td Total	
-                td $ 149.283         
-                td $ 149.283         
+                td $149.283         
+                td $149.283         
       .col-lg-6.mb-lg-0.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 16.
@@ -871,16 +871,16 @@
             tbody
               tr
                 td Gastos depreciación PPE
-                td $ 235.722      
+                td $235.722      
                 td          
               tr
                 td PPE Depreciación acumulada		
                 td          
-                td $ 235.722        
+                td $235.722        
               tr.fw-bold
                 td Total		
-                td $ 235.722        
-                td $ 235.722  
+                td $235.722        
+                td $235.722  
     .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #FED6A8") 
       h4.mb-0  Método de depreciación acelerada  
     .row.justify-content-center.mb-5
@@ -920,97 +920,97 @@
                 td 
                 td  
                 td  
-                td $ 42.430.000
+                td $42.430.000
               tr
                 td 1
                 td 15/120	
-                td $ 5.303.750 
-                td $ 5.303.750	 
-                td $ 37.126.250 
+                td $5.303.750 
+                td $5.303.750	 
+                td $37.126.250 
               tr
                 td 2
                 td 14/120	
-                td $ 4.950.167
-                td $ 10.253.917 
-                td $ 32.176.083 
+                td $4.950.167
+                td $10.253.917 
+                td $32.176.083 
               tr
                 td 3
                 td 13/120	
-                td $ 4.596.583 
-                td $ 14.850.500	
-                td $ 27.579.500 
+                td $4.596.583 
+                td $14.850.500	
+                td $27.579.500 
               tr
                 td 4
                 td 12/120	
-                td $ 4.243.000	
-                td $ 19.093.500	  
-                td $ 23.336.500 
+                td $4.243.000	
+                td $19.093.500	  
+                td $23.336.500 
               tr
                 td 5
                 td 11/120	
-                td $ 3.889.417	 
-                td $ 22.982.917
-                td $ 19.447.083 
+                td $3.889.417	 
+                td $22.982.917
+                td $19.447.083 
               tr
                 td 6
                 td 10/120	
-                td $ 3.535.833	
-                td $ 26.518.750	 
-                td $ 15.911.250 
+                td $3.535.833	
+                td $26.518.750	 
+                td $15.911.250 
               tr
                 td 7
                 td 9/120	
-                td $ 3.182.250	 
-                td $ 29.701.000 
-                td $ 12.729.000 
+                td $3.182.250	 
+                td $29.701.000 
+                td $12.729.000 
               tr
                 td 8
                 td 8/120
-                td $ 2.828.667		 
-                td $ 32.529.667	 
-                td $ 9.900.333 
+                td $2.828.667		 
+                td $32.529.667	 
+                td $9.900.333 
               tr
                 td 9
                 td 7/120	
-                td $ 2.475.083	
-                td $ 35.004.750	 
-                td $ 7.425.250 
+                td $2.475.083	
+                td $35.004.750	 
+                td $7.425.250 
               tr
                 td 10
                 td 6/120	
-                td $ 2.121.500		
-                td $ 37.126.250	 
-                td $ 5.303.750
+                td $2.121.500		
+                td $37.126.250	 
+                td $5.303.750
               tr
                 td 11
                 td 5/120	
-                td $ 1.767.917	 
-                td $ 38.894.167
-                td $ 3.535.833 
+                td $1.767.917	 
+                td $38.894.167
+                td $3.535.833 
               tr
                 td 12
                 td 4/120	
-                td $ 1.414.333		 
-                td $ 40.308.500 
-                td $ 2.121.500 
+                td $1.414.333		 
+                td $40.308.500 
+                td $2.121.500 
               tr
                 td 13
                 td 3/120	
-                td $ 1.060.750 
-                td $ 41.369.250	 
-                td $ 1.060.750 
+                td $1.060.750 
+                td $41.369.250	 
+                td $1.060.750 
               tr
                 td 14
                 td 2/120	
-                td $ 707.167	 
-                td $ 42.076.417	 
-                td $ 353.583
+                td $707.167	 
+                td $42.076.417	 
+                td $353.583
               tr
                 td 15
                 td 1/120	
-                td $ 353.583 
-                td $ 42.430.000  
-                td $ 0 
+                td $353.583 
+                td $42.430.000  
+                td $0 
     p.mb-4 Se puede observar que, comparado con el método de línea recta, en este método, en los primeros años el activo se deprecia más y en los últimos años su valor es menor.
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
@@ -1080,9 +1080,9 @@
                 br
                 |Seguidamente, se multiplica las unidades producidas por la depreciación por unidad:
                 br
-                |Depreciación= $ 2.0000 * 2.800 unidades.
+                |Depreciación= $2.0000 * 2.800 unidades.
                 br
-                |Depreciación= $ 5.600.000
+                |Depreciación= $5600.000
     p.mb-4 A continuación, observa la tabla de depreciación:
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 19.
@@ -1227,24 +1227,24 @@
             tbody
               tr
                 td Anticipo – seguros
-                td $ 12.000.000
+                td $12.000.000
                 td 
               tr
                 td Efectivo
                 td 
-                td $ 12.000.000
+                td $12.000.000
               tr
                 td Total	
-                td $ 12.000.000	
-                td $ 12.000.000
+                td $12.000.000	
+                td $12.000.000
     p.mb-4 Al finalizar el mes, es decir el 31 de diciembre se realiza la amortización del primer mes, teniendo en cuenta trasladar el valor mensual a la cuenta de gastos-clase 5, que se calcula de la siguiente manera:
     .row.justify-content-center.mb-5
       .col-lg-6
         .p-4(style="background-color: #FFFFFF")
-          p.mb-0 Valor mensual= $ 12.000.000 / 12
+          p.mb-0 Valor mensual= $12.000.000 / 12
             br
             br
-            |Valor mensual= $ 1.000.000
+            |Valor mensual= $1.000.000
     p.mb-4 El valor de la póliza se divide en 12 meses, que corresponde al período de amortización. La contabilización del mes de diciembre se realiza como se muestra a continuación.
     .row.justify-content-center.mb-5
       .col-lg-6
@@ -1261,16 +1261,16 @@
             tbody
               tr
                 td Gastos seguros
-                td $ 1.000.000
+                td $1.000.000
                 td 
               tr
                 td Anticipo – seguros
                 td 
-                td $ 1.000.000
+                td $1.000.000
               tr
                 td Total	
-                td $ 1.000.000
-                td $ 1.000.000
+                td $1.000.000
+                td $1.000.000
     p.mb-4 En el año 2021, continúa el proceso de amortización, una vez se haya consumido o recibido el servicio, hasta que la cuenta del activo quede en cero (0) y su valor sea trasladado al gasto, el cual se verá reflejado en el estado de resultados.
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
@@ -1331,7 +1331,7 @@
                 td 
               tr
                 td Activo intangible en desarrollo – Materiales e insumos
-                td $ 3.300.000	
+                td $3.300.000	
                 td 
               tr
                 td Activo intangible en desarrollo - Pruebas	
@@ -1341,26 +1341,26 @@
                 td Efectivo	
 
                 td 
-                td $ 10.000.000
+                td $10.000.000
               tr
                 td Total	
-                td $ 10.000.000
-                td $ 10.000.000
+                td $10.000.000
+                td $10.000.000
     .titulo-tres
       h3 Amortización: 31 de diciembre de 2020
     p.mb-4 Se realiza por el mes de diciembre, teniendo en cuenta que el activo intangible es apto para su uso a partir del 1 de diciembre de 2020.
     .row.justify-content-center.mb-5
       .col-lg-6
         .bg-white.p-4.mb-4
-          p.mb-0 Costo Activo= $ 10.000.000
+          p.mb-0 Costo Activo= $10.000.000
             br
             |Vida útil= 3 años
             br
-            |Anual= $ 3.333.333
+            |Anual= $3.333.333
             br
-            |Mensual= $ 277.778
+            |Mensual= $277.778
             br
-            |Diaria= $ 92.593
+            |Diaria= $92.593
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 23.
           span Registro contable de la amortización
@@ -1374,16 +1374,16 @@
             tbody
               tr
                 td Gasto intangible - Software
-                td $ 277.778
+                td $277.778
                 td 
               tr
                 td Activo intangible - software
                 td 
-                td $ 277.778
+                td $277.778
               tr
                 td Total	
-                td $ 277.778
-                td $ 277.778
+                td $277.778
+                td $277.778
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.4 Diferencia en cambio
     .row.justify-content-center.mb-5
@@ -1425,16 +1425,16 @@
             tbody
               tr
                 td Propiedades, planta y equipo - Maquinaria	
-                td $ 199.500.000
+                td $199.500.000
                 td 
               tr
                 td Pasivo - Acreedores del exterior	
                 td 
-                td $ 199.500.000
+                td $199.500.000
               tr
                 td Total
-                td $ 199.500.000
-                td $ 199.500.000
+                td $199.500.000
+                td $199.500.000
     .titulo-tres
       h3 18 de diciembre de 2020
     ol.lista-ol--cuadro
@@ -1462,16 +1462,16 @@
             tbody
               tr
                 td 	Gasto - Diferencia en cambio	
-                td $ 6.840.000
+                td $6.840.000
                 td 
               tr
                 td Pasivo - Acreedores del exterior		
                 td 
-                td $ 6.840.000
+                td $6.840.000
               tr
                 td 	Total
-                td $ 6.840.000
-                td $ 6.840.000
+                td $6.840.000
+                td $6.840.000
     Separador
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.5 Arqueo de caja
@@ -1515,16 +1515,16 @@
                   tbody
                     tr
                       td 	Gastos de papelería	
-                      td $ 40.000
+                      td $40.000
                       td 
                     tr
                       td 	Efectivo
                       td 
-                      td $ 40.000
+                      td $40.000
                     tr
                       td Total		
-                      td $ 40.000
-                      td $ 40.000
+                      td $40.000
+                      td $40.000
           .row.justify-content-center
             p.mb-4.fw-bold Faltante injustificado, no se evidencia el concepto o soporte por el que falta dinero en la caja, una vez se realizó el arqueo. Por lo anterior, el colaborador es responsable de este suceso.
             .col-lg-5.mb-lg-0.mb-3
@@ -1547,16 +1547,16 @@
                   tbody
                     tr
                       td 	Efectivo
-                      td $ 50.000
+                      td $50.000
                       td 
                     tr
                       td 	Cuentas por cobrar a trabajadores
                       td 
-                      td $ 50.000
+                      td $50.000
                     tr
                       td 	Total	
-                      td $ 50.000
-                      td $ 50.000
+                      td $50.000
+                      td $50.000
     ol.lista-ol--cuadro
       li.d-flex
         .lista-ol--cuadro__vineta
@@ -1585,16 +1585,16 @@
                   tbody
                     tr
                       td 	Efectivo
-                      td $ 500.000
+                      td $500.000
                       td 
                     tr
                       td 	Deudores comerciales - cientes
                       td 
-                      td $ 500.000
+                      td $500.000
                     tr
                       td Total	
-                      td $ 500.000
-                      td $ 500.000
+                      td $500.000
+                      td $500.000
       .py-4.py-md-5.px-5(titulo="Sobrantes en la caja injustificados")
         .row.justify-content-center
             .col-lg-5.mb-lg-0.mb-3
@@ -1620,16 +1620,16 @@
                   tbody
                     tr
                       td 	Efectivo
-                      td $ 20.000
+                      td $20.000
                       td 
                     tr
                       td 	Ingreso - sobrante de caja
                       td 
-                      td $ 20.000
+                      td $20.000
                     tr
                       td Total	
-                      td $ 20.000
-                      td $ 20.000
+                      td $20.000
+                      td $20.000
     Separador
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.6 Conciliación bancaria
@@ -1674,20 +1674,20 @@
                   tbody
                     tr
                       td 	Gastos bancarios (chequera)
-                      td $ 180.000
+                      td $180.000
                       td 
                     tr
                       td 	IVA
-                      td $ 34.200
+                      td $34.200
                       td 
                     tr
                       td 	Bancos
                       td 
-                      td $ 214.200
+                      td $214.200
                     tr
                       td 	Total
-                      td $ 214.200
-                      td $ 214.200
+                      td $214.200
+                      td $214.200
           .row.justify-content-center
             p.mb-4.fw-bold 
             .col-lg-5.mb-lg-0.mb-3
@@ -1710,16 +1710,16 @@
                   tbody
                     tr
                       td Gastos Financieros (GMF)		
-                      td $ 90.300
+                      td $90.300
                       td 
                     tr
                       td Bancos		
                       td 
-                      td $ 90.300
+                      td $9.300
                     tr
                       td Total
-                      td $ 90.300
-                      td $ 90.300
+                      td $9.300
+                      td $9.300
     ul.lista-ul--color
       li
         i.fas.fa-circle.fa-xs
@@ -1734,7 +1734,7 @@
               p.mb-0 En ocasiones se reflejan valores reconocidos en los libros contables y no registrados por la entidad financiera: este caso sucede cuando existen cheques pendientes de cobro o que han sido devueltos, también se presentan remesas en tránsito.
                 br
                 br
-                |En el extracto bancario existe una nota débito por concepto de un cheque girado por el cliente Carlos Téllez por valor de $ 600.000, consignado a la empresa contables SAS y devuelto por la entidad financiera por fondos insuficientes, por lo anterior, el importe no se encuentra registrado en los libros contables.
+                |En el extracto bancario existe una nota débito por concepto de un cheque girado por el cliente Carlos Téllez por valor de $600.000, consignado a la empresa contables SAS y devuelto por la entidad financiera por fondos insuficientes, por lo anterior, el importe no se encuentra registrado en los libros contables.
                 br
                 br
                 |Asiento de ajuste.
@@ -1752,16 +1752,16 @@
                   tbody
                     tr
                       td Clientes
-                      td $ 600.000
+                      td $600.000
                       td
                     tr
                       td Bancos
                       td 
-                      td $ 600.000
+                      td $600.000
                     tr
                       td Total
-                      td $ 600.000
-                      td $ 600.000
+                      td $600.000
+                      td $600.000
           .row.justify-content-center
             p.mb-4.fw-bold 
             .col-lg-5.mb-lg-0.mb-3
@@ -1789,16 +1789,16 @@
                   tbody
                     tr
                       td Bancos
-                      td $ 550.000
+                      td $550.000
                       td
                     tr
                       td Clientes
                       td 
-                      td $ 550.000
+                      td $550.000
                     tr
                       td Total	
-                      td $ 550.000
-                      td $ 550.000
+                      td $550.000
+                      td $550.000
     ol.lista-ol--cuadro.mb-5
       li.d-flex
         .lista-ol--cuadro__vineta
@@ -1833,16 +1833,16 @@
                   tbody
                     tr
                       td Bancos
-                      td $ 900.000
+                      td $90.000
                       td
                     tr
                       td Efectivo (caja)
                       td 
-                      td $ 900.000
+                      td $90.000
                     tr
                       td Total	
-                      td $ 900.000
-                      td $ 900.000
+                      td $900.000
+                      td $900.000
           .row.justify-content-center
             p.mb-4.fw-bold 
             .col-lg-5.mb-lg-0.mb-3
@@ -1865,16 +1865,16 @@
                   tbody
                     tr
                       td Efectivo (caja)
-                      td $ 270.000
+                      td $270.000
                       td
                     tr
                       td Bancos
                       td 
-                      td $ 270.000
+                      td $270.000
                     tr
                       td Total	
-                      td $ 270.000
-                      td $ 270.000
+                      td $270.000
+                      td $270.000
     ol.lista-ol--cuadro.mb-5
           li.d-flex
             .lista-ol--cuadro__vineta
@@ -1909,16 +1909,16 @@
                   tbody
                     tr
                       td Gastos de mantenimiento de equipos	
-                      td $ 630.000
+                      td $630.000
                       td
                     tr
                       td Bancos
-                      td $ 630.000
+                      td $630.000
                       td
                     tr
                       td Total	
-                      td $ 630.000
-                      td $ 630.000
+                      td $630.000
+                      td $630.000
           .row.justify-content-center
             p.mb-4.fw-bold 
             .col-lg-5.mb-lg-0.mb-3
@@ -1941,16 +1941,16 @@
                   tbody
                     tr
                       td Bancos	
-                      td $ 600.000
+                      td $600.000
                       td
                     tr
                       td Proveedores	
                       td 
-                      td $ 600.000
+                      td $600.000
                     tr
                       td Total	
-                      td $ 600.000
-                      td $ 600.000
+                      td $600.000
+                      td $600.000
     Separador
     #t_1_7.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.7 Balance de prueba
@@ -2155,11 +2155,11 @@
               tr
                 td Utilidad o pérdida
                 td 
-                td $ 42.549.000
+                td $42.549.000
               tr
                 td TOTAL
                 td $42.549.000
-                td $ 42.549.000
+                td $42.549.000
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 40.
           span Cierre de la cuenta de gastos
@@ -2173,24 +2173,24 @@
             tbody
               tr
                 td Utilidad o pérdida
-                td $ 29.259.167
+                td $29.259.167
                 td
               tr
                 td Gastos de personal
                 td 
-                td $ 4.160.000
+                td $4.160.000
               tr
                 td Gastos arrendamiento
                 td 
-                td $ 585.000
+                td $585.000
               tr
                 td Gastos depreciación
                 td 
-                td $ 1.094.167
+                td $1.094.167
               tr
                 td Gastos financieros
                 td 
-                td $ 670.000
+                td $670.000
     .titulo-tres
       h3 Cierre de la cuenta de utilidad o pérdida
     p.mb-4 A continuación, se observa la hoja de trabajo, teniendo en cuenta la información del ejemplo anterior:
@@ -2209,16 +2209,16 @@
             tbody
               tr
                 td Utilidad del ejercicio	
-                td $ 13.289.833	
+                td $13.289.833	
                 td
               tr
                 td Gastos de personal	
                 td 
-                td $ 13.289.833
+                td $13.289.833
               tr
                 td Total	
-                td $ 13.289.833	
-                td $ 13.289.833
+                td $13.289.833	
+                td $13.289.833
     p.mb-4 El ejercicio presentó utilidad, teniendo en cuenta que los ingresos superaron los costos y gastos; por lo tanto, se realizó el registro crédito aumentando el patrimonio. En el caso en que los ingresos sean inferiores a los costos y gastos, se refleja una pérdida en el ejercicio, disminuyendo el patrimonio (débito).
     .row.justify-content-center.mb-5
       .col-lg-10

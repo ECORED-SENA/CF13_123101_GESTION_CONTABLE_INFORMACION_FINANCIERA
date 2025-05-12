@@ -455,8 +455,8 @@
           .row.justify-content-center.align-items-center
             .col-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/17.svg', alt='')
             .col-lg-10
-              p.mb-0 Esta norma se aplica a todos los inventarios; excepto instrumentos financieros y activos biológicos. Allí se definen los criterios de reconocimiento, medición, presentación y revelación de inventarios, permitiendo identificar el costo con base a los elementos que lo componen. De igual manera, presenta las bases para el reconocimiento y medición del deterioro por este concepto.
-        p.mb-0 El deterioro en inventario se identifica mediante la comparación del importe en libros y el valor neto realizable; este último hace referencia al precio que se puede obtener por la venta de dicho activo. Si el importe en libros es mayor al valor neto realizable se considera deterioro de inventarios; por lo tanto, se registra la pérdida mediante un gasto.
+              p.mb-0 Esta norma se aplica a todos los inventarios, excepto instrumentos financieros y activos biológicos. Allí se definen los criterios de reconocimiento, medición, presentación y revelación de inventarios, permitiendo identificar el costo con base en los elementos que lo componen. De igual manera, presenta las bases para el reconocimiento y medición del deterioro por este concepto.
+        p.mb-0 El deterioro en inventario se identifica mediante la comparación del importe en libros y el valor neto realizable, este último hace referencia al precio que se puede obtener por la venta de dicho activo. Si el importe en libros es mayor al valor neto realizable se considera deterioro de inventarios; por lo tanto, se registra la pérdida mediante un gasto.
       .col-lg-5.col-7.mb-lg-0.mb-3
         img(src='@/assets/curso/temas/16.png', alt='')                  
     .row.justify-content-center.mb-5
@@ -574,7 +574,7 @@
         .bloque-texto-d.color-secundario.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular Una entidad reconocerá una corrección de valor por pérdidas por pérdidas crediticias esperadas sobre un activo financiero que se mide de acuerdo con los párrafos 4.1.2 o 4.1.2A, una cuenta por cobrar por arrendamientos, un activo de contrato o un compromiso de préstamo y un contrato de garantía financiera a los que se les aplica los requerimientos de deterioro de valor de acuerdo con los párrafos 2.1(g), 4.2.1(c) o 4.2.1(d) El objetivo de los requerimientos del deterioro de valor es reconocer las pérdidas crediticias esperadas durante el tiempo de vida del activo de todos los instrumentos financieros para los cuales ha habido incrementos significativos en el riesgo crediticio desde el reconocimiento inicial — evaluado sobre una base colectiva o individual — considerando toda la información razonable y sustentable, incluyendo la que se refiera al futuro. (p.22)
+            h3.text-regular Una entidad reconocerá una corrección de valor por pérdidas por pérdidas crediticias esperadas sobre un activo financiero que se mide de acuerdo con los párrafos 4.1.2 o 4.1.2A, una cuenta por cobrar por arrendamientos, un activo de contrato o un compromiso de préstamo y un contrato de garantía financiera a los que se les aplica los requerimientos de deterioro de valor de acuerdo con los párrafos 2.1(g), 4.2.1(c) o 4.2.1(d) El objetivo de los requerimientos del deterioro de valor es reconocer las pérdidas crediticias esperadas durante el tiempo de vida del activo de todos los instrumentos financieros para los cuales ha habido incrementos significativos en el riesgo crediticio desde el reconocimiento inicial — evaluado sobre una base colectiva o individual — considerando toda la información razonable y sustentable, incluyendo la que se refiera al futuro. (Pag. 20.)
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 La NIIF 9 (2014) 
@@ -587,7 +587,7 @@
     .row.justify-content-center.mb-5
       .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/19.svg', alt='')
       .col-lg-7
-        p.mb-4 En este caso, es importante tener en cuenta que el cliente paga dentro de 6 meses el valor de $65.000.000, no se cobran intereses; por lo tanto, dicho valor se debe traer a valor presente teniendo en cuenta el concepto de matemáticas financieras y valor el dinero en el tiempo. Por lo tanto, se aplica la fórmula de valor actual o valor presente, mediante interés efectivo.
+        p.mb-4 En este caso, es importante tener en cuenta que el cliente paga dentro de 6 meses el valor de $65.000.000, no se cobran intereses; por lo tanto, dicho valor se debe traer a valor presente teniendo en cuenta el concepto de matemáticas financieras y valor del dinero en el tiempo. Por lo tanto, se aplica la fórmula de valor actual o valor presente, mediante interés efectivo.
         .p-4.mb-4(style="background-color: #EDF7FE ")
           p.mb-4 VA = VF(1+i)⋀ n
             br
@@ -624,7 +624,7 @@
     .row.justify-content-center.mb-5
       .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/20.svg', alt='')
       .col-lg-7
-        p.mb-4 De acuerdo con los estándares internacionales la depreciación se debe realizar a partir de que el activo fijo se encuentra apto para su uso, teniendo en cuenta el valor del importe en libros y la vida útil estipulada en las políticas contables. La estimación de la vida útil es el período en el cual la empresa desea darle uso al activo fijo.
+        p.mb-4 De acuerdo con los estándares internacionales, la depreciación se debe realizar a partir de que el activo fijo se encuentra apto para su uso, teniendo en cuenta el valor del importe en libros y la vida útil estipulada en las políticas contables. La estimación de la vida útil es el período en el cual la empresa desea darle uso al activo fijo.
           br
           br
           |Por ejemplo, la empresa Contable SAS, adquiere un vehículo para uso de la gerencia, en las políticas contables se estableció que la vida útil es de tres (3) años, teniendo en cuenta que cada tres años venden el vehículo y adquieren uno nuevo, por lo tanto, este será el período de depreciación.
@@ -678,7 +678,7 @@
     p.mb-4 La vida útil de los activos fijos se relaciona en las políticas contables diseñadas por la empresa, teniendo en cuenta la utilidad del activo. De acuerdo con el art. 137 del ET, la tasa de depreciación anual y vida útil equivalente se presenta de la siguiente manera:
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 13.
-      span Tasas de depreciación y vida útil por tipo de activo
+      span Valor en libros del activo
     .tabla-a.color-acento-botones.mb-5
       table
         thead(style="background-color: #FD9826 ").border-0
@@ -774,7 +774,7 @@
             
             h4.mb-1 Ejemplo
             p.mb-4 La entidad compra una máquina por valor de $35.000.000, más IVA del 19 %. La vida útil estimada del activo es de 15 años. Paga mano de obra por instalación de la máquina por $300.000, materiales e insumos de instalación $180.000.
-        p.mb-4 Se realiza una prueba de funcionamiento del activo y se paga $150.000. El vendedor de la máquina transfiere los riesgos y beneficios el 7 de noviembre de 2020 y la máquina está apta para ser usada el 12 de noviembre de 2020. Calcular la depreciación del mes de noviembre y diciembre.
+        p.mb-4 Se realiza una prueba de funcionamiento del activo y se paga $150.000. El vendedor de la máquina transfiere los riesgos y beneficios el 7 de noviembre de 2020 y la máquina está apta para ser usada el 12 de noviembre de 2020. Calcular la depreciación de los meses de noviembre y diciembre.
       .col-lg-5.col-7.mb-lg-0.mb-3
         img(src='@/assets/curso/temas/26.png', alt='')
     .row.justify-content-center.mb-5
@@ -1016,7 +1016,7 @@
       .col-lg-7.mb-lg-0.mb-3
         .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #FED6A8") 
           h4.mb-0 Método de unidades de producción
-        p.mb-2 Para aplicar este método se tiene en cuenta la vida útil del activo de acuerdo con su capacidad de producción, como puede ser: horas de trabajo, kilómetros y unidades producidas.
+        p.mb-2 Para aplicar este método, se tiene en cuenta la vida útil del activo de acuerdo con su capacidad de producción, como puede ser: horas de trabajo, kilómetros y unidades producidas.
         .row.justify-content-center.mb-3
           .col-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/14.png', alt='')
           .col-lg-10
@@ -1188,23 +1188,23 @@
         ul.lista-ul
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 Debe ser controlado
+            p.mb-0 Debe ser controlado.
           
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 Proviene de eventos pasados
+            p.mb-0 Proviene de eventos pasados.
 
           
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 Genera beneficios económicos futuros
+            p.mb-0 Genera beneficios económicos futuros.
 
           
           li.d-flex
             i.fas.fa-angle-right
             p.mb-0 Debe ser fiable su valor.
         .p-4(style="background-color: #DDEFFD")
-          p.mb-0 Algunos conceptos que se tienen en cuenta para amortización de gastos pagados por anticipado al final del período contable son: arrendamientos, pólizas de seguros, comisiones, honorarios, mantenimiento, servicios, etc.
+          p.mb-0 Algunos conceptos que se tienen en cuenta para la amortización de gastos pagados por anticipado al final del período contable son: arrendamientos, pólizas de seguros, comisiones, honorarios, mantenimiento, servicios, etc.
       .col-lg-5.col-7: img(src='@/assets/curso/temas/28.svg', alt='')
     .row.justify-content-center.mb-5
       .col-1.mb-lg-0.mb-3: img(src='@/assets/curso/temas/14.png', alt='')
@@ -1275,7 +1275,7 @@
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         .p-4.mb-4(style="background-color: #F3F0EA")
-          p.mb-0 Por otro lado, los activos intangibles se amortizan a medida que generan beneficios económicos para la empresa, teniendo en cuenta que estos poseen vida útil definida e indefinida, estos últimos de acuerdo con la NIC 38 no se amortizan; además se tendrá en cuenta los criterios relacionados en la NIC 38 y políticas diseñadas por la empresa. Cabe resaltar, que los activos intangibles inician el proceso de amortización, una vez este se encuentren en condiciones de uso.
+          p.mb-0 Por otro lado, los activos intangibles se amortizan a medida que generan beneficios económicos para la empresa, teniendo en cuenta que estos poseen vida útil definida e indefinida, estos últimos, de acuerdo con la NIC 38, no se amortizan. Además, se tendrán en cuenta los criterios relacionados en la NIC 38 y las políticas diseñadas por la empresa. Cabe resaltar, que los activos intangibles inician el proceso de amortización una vez que estos se encuentren en condiciones de uso.
 
         .bloque-texto-d.color-secundario.p-4
           .bloque-texto-d__texto.mb-2
@@ -1388,19 +1388,19 @@
       h2 1.4 Diferencia en cambio
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
-        p.mb-4 Este tipo de ajustes se presenta cuando la empresa realiza operaciones comerciales en moneda extranjera o tiene negocios en el extranjero; por lo tanto, al realizar la conversión de moneda para la presentación de la información contable la empresa se encuentra expuesta al riesgo cambiario, lo cual genera diferencias que deben registrarse mediante un ajuste contable, cuyo objetivo es reflejar la realidad económica.
+        p.mb-4 Este tipo de ajustes se presenta cuando la empresa realiza operaciones comerciales en moneda extranjera o tiene negocios en el extranjero; por lo tanto, al realizar la conversión de moneda para la presentación de la información contable, la empresa se encuentra expuesta al riesgo cambiario, lo cual genera diferencias que deben registrarse mediante un ajuste contable, cuyo objetivo es reflejar la realidad económica.
           br
           br
-          |El objetivo de la Norma Internacional de contabilidad (NIC) 21 expresa:
+          |El objetivo de la Norma Internacional de CONTABILIDAD (NIC) 21 expresa:
         ol.lista-ol--cuadro
           li.d-flex
             .lista-ol--cuadro__vineta
               span 1
-            p.mb-0 Una entidad puede llevar a cabo actividades en el extranjero de dos maneras diferentes. Puede realizar transacciones en moneda extranjera o bien puede tener negocios en el extranjero. Además, la entidad puede presentar sus estados financieros en una moneda extranjera. El objetivo de esta Norma es prescribir cómo se incorporan, en los estados financieros de una entidad, las transacciones en moneda extranjera y los negocios en el extranjero, y cómo convertir los estados financieros a la moneda de presentación elegida.
+            p.mb-0 Una entidad puede llevar a cabo actividades en el extranjero de dos maneras diferentes. Puede realizar transacciones en moneda extranjera o bien puede tener negocios en el extranjero. Además, la entidad puede presentar sus estados financieros en una moneda extranjera. El objetivo de esta orma es prescribir cómo se incorporan, en los estados financieros de una entidad, las transacciones en moneda extranjera y los negocios en el extranjero, y cómo convertir los estados financieros a la moneda de presentación elegida.
           li.d-flex
             .lista-ol--cuadro__vineta
               span 2
-            p.mb-0 Los principales problemas que se presentan son la tasa o tasas de cambio a utilizar, así como la manera de informar sobre los efectos de las variaciones en las tasas de cambio dentro de los estados financieros. Cabe resaltar que para el grupo 2- NIIF pymes aplica la sección 30 Conversión de la moneda extranjera. (p.A195)
+            p.mb-0 Los principales problemas que se presentan son la tasa o tasas de cambio a utilizar, así como la manera de informar sobre los efectos de las variaciones en las tasas de cambio dentro de los estados financieros. Cabe resaltar que para el grupo 2- NIIF pymes aplica la sección 30, Conversión de la moneda extranjera. (p.A195)
       .col-lg-5.col-7: img(src='@/assets/curso/temas/32.svg', alt='')
     .row.justify-content-center.mb-5
       .col-1.mb-lg-0.mb-3: img(src='@/assets/curso/temas/14.png', alt='')
@@ -1529,7 +1529,7 @@
             p.mb-4.fw-bold Faltante injustificado, no se evidencia el concepto o soporte por el que falta dinero en la caja, una vez se realizó el arqueo. Por lo anterior, el colaborador es responsable de este suceso.
             .col-lg-5.mb-lg-0.mb-3
               h5 Ejemplo: 
-              p.mb-0 presenta un faltante injustificado por valor de $50.000.
+              p.mb-0 Presenta un faltante injustificado por valor de $50.000.
                 br
                 br
                 |Asiento de ajuste.
@@ -1956,7 +1956,7 @@
       h2 1.7 Balance de prueba
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
-        p.mb-4 El Balance de prueba o de comprobación es un documento que refleja los saldos en el debe y haber de las cuentas de activo, pasivo, patrimonio, ingresos, gastos y costos. Cada una de las columnas débito y crédito deber dar sumas iguales, verificando una vez más el principio de partida doble.
+        p.mb-4 El balance de prueba o de comprobación es un documento que refleja los saldos en el debe y haber de las cuentas de activo, pasivo, patrimonio, ingresos, gastos y costos. Cada una de las columnas débito y crédito deben dar sumas iguales, verificando una vez más el principio de partida doble.
         .tarjeta.p-4(style="background-color: #DDEFFD").rounded-0.mb-4
           .row.justify-content-center.align-items-center
             .col-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/35.svg', alt='')

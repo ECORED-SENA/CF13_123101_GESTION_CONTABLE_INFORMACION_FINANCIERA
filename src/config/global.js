@@ -138,52 +138,52 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Asientos de ajuste:',
+      termino: 'Asientos de ajuste',
       significado:
         'registros contables realizados al finalizar un periodo y que tienen como objetivo registrar hechos económicos ejecutados, pero no reconocidos y corregir errores y omisiones cometidos a lo largo del periodo contable.',
     },
     {
-      termino: 'Asientos de cierre:',
+      termino: 'Asientos de cierre',
       significado:
         'asientos contables que se deben realizar al finalizar un periodo con el propósito de cerrar las cuentas de resultados y transferir su saldo neto a la cuenta apropiada del patrimonio.',
     },
     {
-      termino: 'Balance de prueba ajustado:',
+      termino: 'Balance de prueba ajustado',
       significado:
         'listado de los saldos débitos y créditos de las cuentas de los estados financieros, que se prepara después de los asientos de ajuste y antes de los de cierre.',
     },
     {
-      termino: 'Cuentas permanentes:',
+      termino: 'Cuentas permanentes',
       significado:
         'partidas del balance general que perduran en los distintos periodos y no se deben cerrar.',
     },
     {
-      termino: 'Cuentas temporales:',
+      termino: 'Cuentas temporales',
       significado:
         'partidas del estado de resultados que deben cerrarse al finalizar un periodo contable para determinar la utilidad o pérdida operacional.',
     },
     {
-      termino: 'Depreciación:',
+      termino: 'Depreciación',
       significado:
         'distribución del costo histórico de las propiedades, planta y equipo en los distintos periodos de vida útil.',
     },
     {
-      termino: 'Ganancias y pérdidas:',
+      termino: 'Ganancias y pérdidas',
       significado:
         'cuenta temporal que tiene como finalidad resumir los ingresos y gastos de un periodo.',
     },
     {
-      termino: 'Gastos pagados por anticipado:',
+      termino: 'Gastos pagados por anticipado',
       significado:
         'desembolsos realizados por la empresa que tienen como finalidad pagar por anticipado ciertos gastos.',
     },
     {
-      termino: 'Ingresos recibidos por anticipado:',
+      termino: 'Ingresos recibidos por anticipado',
       significado:
         'dinero recibido por la empresa como anticipo de servicios por prestar en el futuro.',
     },
     {
-      termino: 'Valor residual:',
+      termino: 'Valor residual',
       significado:
         'es el importe estimado que la entidad podría obtener de un activo por su disposición, después de haber deducido los costos estimados para su disposición, si el activo tuviera ya la edad y condición esperadas al término de su vida útil.',
     },

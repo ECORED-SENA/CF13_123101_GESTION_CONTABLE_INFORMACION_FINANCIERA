@@ -10,7 +10,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/3.png', alt='')
         .col-lg-7
-          .p-4: p.mb-0 Para realizar el cierre contable, se requiere haber efectuado los procedimientos del ciclo contable, los cuales hacen referencia al proceso de reconocimiento y medición de los hechos económicos. Estos deben presentarse de forma ordenada, de acuerdo con el período de tiempo, teniendo en cuenta las normas contables, financieras, tributarias y laborales.
+          .p-4: p.mb-0 Para realizar el cierre contable, se requiere haber efectuado los procedimientos del ciclo contable, los cuales hacen referencia al proceso de reconocimiento y medición de los hechos económicos. Estos deben presentarse de forma ordenada, de acuerdo con el período de tiempo; teniendo en cuenta las normas contables, financieras, tributarias y laborales.
     p.mb-4 En el procedimiento del ciclo contable se tienen en cuenta las siguientes actividades:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
@@ -47,7 +47,7 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 1.
       span Diagrama del ciclo contable
-    img.mb-4(src='@/assets/curso/temas/5.png', alt='Diagrama circular sobre el ciclo contable que incluye las siguientes etapas: realización del hecho económico, generación de documentos contables, reconocimiento y medición inicial, registro en el libro diario, traslado de la información al libro mayor y balances, elaboración del balance de comprobación, asientos de ajuste, comprobante de cierre y elaboración de estados financieros de propósito general.')
+    img.mb-4(src='@/assets/curso/temas/5.svg', alt='Diagrama circular sobre el ciclo contable que incluye las siguientes etapas: realización del hecho económico, generación de documentos contables, reconocimiento y medición inicial, registro en el libro diario, traslado de la información al libro mayor y balances, elaboración del balance de comprobación, asientos de ajuste, comprobante de cierre y elaboración de estados financieros de propósito general.')
     p.mb-4 Los asientos de ajuste hacen referencia al reconocimiento y medición de hechos económicos que presentan errores, omisiones y ajustes al valor real, con el fin de reflejar la realidad económica de la empresa y de esta manera presentar los estados financieros de forma comprensible, útil, oportuna y confiable para la toma de decisiones. Estos ajustes carecen del soporte contable específico; por lo tanto, se registran a través de una nota de contabilidad, con el fin de evidenciar el tipo de ajuste realizado en el respectivo período contable.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
@@ -275,7 +275,7 @@
         SlyderA(tipo='b')
           div
             .row.justify-content-center.mb-5
-              .col-lg-10
+              .col-lg-8
                 .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                   h5 Tabla 1. 
                   span Detalle del costo de adquisición
@@ -283,7 +283,7 @@
                   table
                     thead(style="background-color: #FD9826 ").border-0
                       tr
-                        th Detalle
+                        th(width="50%") Detalle
                         th Valor
                     tbody
                       tr
@@ -319,7 +319,7 @@
                         td $134.000.000
           div
             .row.justify-content-center.mb-5
-              .col-lg-10
+              .col-lg-8
                 .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                   h5 Tabla 3. 
                   span Cálculo de la depreciación
@@ -365,7 +365,7 @@
                 p.mb-0 El activo se encuentra apto para su uso a partir del 15 de agosto de 2020; por lo tanto, se tendrá en cuenta dicha fecha para iniciar el reconocimiento de la depreciación.         
           div
             .row.justify-content-center.mb-5
-              .col-lg-10
+              .col-lg-8
                 .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                   h5 Tabla 5. 
                   span Depreciación mensual acumulada (agosto - diciembre)
@@ -400,7 +400,7 @@
                 p.mb-0 #[b Supuesto:] Prueba Deterioro: Importe recuperable < Valor en libros Deterioro             
           div
             .row.justify-content-center.mb-5
-              .col-lg-10
+              .col-lg-8
                 .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                   h5 Tabla 6. 
                   span Ajuste: pérdida bancaria (importe recuperable menor al valor en libros)
@@ -676,90 +676,92 @@
     .titulo-tres
       h3 Vida útil
     p.mb-4 La vida útil de los activos fijos se relaciona en las políticas contables diseñadas por la empresa, teniendo en cuenta la utilidad del activo. De acuerdo con el art. 137 del ET, la tasa de depreciación anual y vida útil equivalente se presenta de la siguiente manera:
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Tabla 13.
-      span Valor en libros del activo
-    .tabla-a.color-acento-botones.mb-5
-      table
-        thead(style="background-color: #FD9826 ").border-0
-          tr
-            th Cuenta 
-            th Valor
-            th Unidad
-        tbody
-          tr
-            td Construcciones y edificaciones	
-            td 2,22 %	
-            td 45 años
-          tr
-            td Acueducto, planta y redes	
-            td 2,50 %	
-            td 40 años
-          tr
-            td Vías de comunicación	
+    .row.justify-content-center
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Tabla 13.
+          span Tasas de depreciación y vida útil por tipo de activo
+        .tabla-a.color-acento-botones.mb-5
+          table
+            thead(style="background-color: #FD9826 ").border-0
+              tr
+                th Cuenta 
+                th Valor
+                th Unidad
+            tbody
+              tr
+                td Construcciones y edificaciones	
+                td 2,22 %	
+                td 45 años
+              tr
+                td Acueducto, planta y redes	
+                td 2,50 %	
+                td 40 años
+              tr
+                td Vías de comunicación	
 
-            td 2,50 %	
-            td 40 años
-          tr
-            td Flota y equipo aéreo	
-            td 3,33 %	
-            td 30 años
+                td 2,50 %	
+                td 40 años
+              tr
+                td Flota y equipo aéreo	
+                td 3,33 %	
+                td 30 años
 
-          tr
-            td Flota y equipo férreo
-            td 5,00 %	
+              tr
+                td Flota y equipo férreo
+                td 5,00 %	
 
-            td 20 años
+                td 20 años
 
-          tr
-            td Flota y equipo fluvial
-            td 6,67 %
-            td 15 años
-          tr
-            td Armamento y equipo de vigilancia
-            td 10,00 %
-            td 10 años
-          tr
-            td Equipo eléctrico
-            td 10,00 %
-            td 10 años
-          tr
-            td Flota y equipo de transporte terrestre
-            td 10,00 %
-            td 10 años
-          tr
-            td Maquinaria, equipos	
-            td 10,00 %
-            td 10 años
-          tr
-            td Muebles y enseres	
-            td 10,00 %
-            td 10 años
+              tr
+                td Flota y equipo fluvial
+                td 6,67 %
+                td 15 años
+              tr
+                td Armamento y equipo de vigilancia
+                td 10,00 %
+                td 10 años
+              tr
+                td Equipo eléctrico
+                td 10,00 %
+                td 10 años
+              tr
+                td Flota y equipo de transporte terrestre
+                td 10,00 %
+                td 10 años
+              tr
+                td Maquinaria, equipos	
+                td 10,00 %
+                td 10 años
+              tr
+                td Muebles y enseres	
+                td 10,00 %
+                td 10 años
 
-          tr
-            td Equipo médico científico	
-            td 12,50 %
-            td 8 años
+              tr
+                td Equipo médico científico	
+                td 12,50 %
+                td 8 años
 
-          tr
-            td Envases, empaques y herramientas	
-            td 20,00 %
+              tr
+                td Envases, empaques y herramientas	
+                td 20,00 %
 
-            td 5 años
-          tr
-            td Equipo de computación
+                td 5 años
+              tr
+                td Equipo de computación
 
-            td 20,00 %
+                td 20,00 %
 
-            td 5 años
-          tr
-            td Redes de procesamiento de datos
-            td 20,00 %
-            td 5 años
-          tr
-            td Equipo de comunicación
-            td 20,00 %
-            td 5 años
+                td 5 años
+              tr
+                td Redes de procesamiento de datos
+                td 20,00 %
+                td 5 años
+              tr
+                td Equipo de comunicación
+                td 20,00 %
+                td 5 años
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         .titulo-tres.mb-4
@@ -781,7 +783,7 @@
       .col-lg-6.mb-lg-0.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 13.
-          span Tasas de depreciación y vida útil por tipo de activo
+          span Valor en libros del activo
         .tabla-a.color-acento-botones.mb-5
           table
             thead(style="background-color: #FD9826 ").border-0
@@ -902,115 +904,117 @@
         .row.mb-4
           .col-lg-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/f2.svg', alt='Fórmula matemática aplicada para calcular la suma de los primeros 15 números naturales, con resultado final S = 120.')
         p.mb-4 Luego, se tiene en cuenta el factor para cada año de vida: 15/120 – 14/120 -13/120 y así sucesivamente hasta llegar a uno, como se muestra en la siguiente tabla:
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Tabla 17. 
-      span Depreciación mediante el método de unidades de tiempo
-    .tabla-a.color-acento-botones.mb-5
-          table
-            thead(style="background-color: #FD9826 ").border-0
-              tr
-                th Años
-                th Factor
-                th Depreciación anual
-                th Depreciación acumulada
-                th Valor en libros
-            tbody
-              tr
-                td 
-                td 
-                td  
-                td  
-                td $42.430.000
-              tr
-                td 1
-                td 15/120	
-                td $5.303.750 
-                td $5.303.750	 
-                td $37.126.250 
-              tr
-                td 2
-                td 14/120	
-                td $4.950.167
-                td $10.253.917 
-                td $32.176.083 
-              tr
-                td 3
-                td 13/120	
-                td $4.596.583 
-                td $14.850.500	
-                td $27.579.500 
-              tr
-                td 4
-                td 12/120	
-                td $4.243.000	
-                td $19.093.500	  
-                td $23.336.500 
-              tr
-                td 5
-                td 11/120	
-                td $3.889.417	 
-                td $22.982.917
-                td $19.447.083 
-              tr
-                td 6
-                td 10/120	
-                td $3.535.833	
-                td $26.518.750	 
-                td $15.911.250 
-              tr
-                td 7
-                td 9/120	
-                td $3.182.250	 
-                td $29.701.000 
-                td $12.729.000 
-              tr
-                td 8
-                td 8/120
-                td $2.828.667		 
-                td $32.529.667	 
-                td $9.900.333 
-              tr
-                td 9
-                td 7/120	
-                td $2.475.083	
-                td $35.004.750	 
-                td $7.425.250 
-              tr
-                td 10
-                td 6/120	
-                td $2.121.500		
-                td $37.126.250	 
-                td $5.303.750
-              tr
-                td 11
-                td 5/120	
-                td $1.767.917	 
-                td $38.894.167
-                td $3.535.833 
-              tr
-                td 12
-                td 4/120	
-                td $1.414.333		 
-                td $40.308.500 
-                td $2.121.500 
-              tr
-                td 13
-                td 3/120	
-                td $1.060.750 
-                td $41.369.250	 
-                td $1.060.750 
-              tr
-                td 14
-                td 2/120	
-                td $707.167	 
-                td $42.076.417	 
-                td $353.583
-              tr
-                td 15
-                td 1/120	
-                td $353.583 
-                td $42.430.000  
-                td $0 
+    .row.justify-content-center
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Tabla 17. 
+          span Depreciación mediante el método de unidades de tiempo
+        .tabla-a.color-acento-botones.mb-5
+              table
+                thead(style="background-color: #FD9826 ").border-0
+                  tr
+                    th Años
+                    th Factor
+                    th Depreciación anual
+                    th Depreciación acumulada
+                    th Valor en libros
+                tbody
+                  tr
+                    td 
+                    td 
+                    td  
+                    td  
+                    td $42.430.000
+                  tr
+                    td 1
+                    td 15/120	
+                    td $5.303.750 
+                    td $5.303.750	 
+                    td $37.126.250 
+                  tr
+                    td 2
+                    td 14/120	
+                    td $4.950.167
+                    td $10.253.917 
+                    td $32.176.083 
+                  tr
+                    td 3
+                    td 13/120	
+                    td $4.596.583 
+                    td $14.850.500	
+                    td $27.579.500 
+                  tr
+                    td 4
+                    td 12/120	
+                    td $4.243.000	
+                    td $19.093.500	  
+                    td $23.336.500 
+                  tr
+                    td 5
+                    td 11/120	
+                    td $3.889.417	 
+                    td $22.982.917
+                    td $19.447.083 
+                  tr
+                    td 6
+                    td 10/120	
+                    td $3.535.833	
+                    td $26.518.750	 
+                    td $15.911.250 
+                  tr
+                    td 7
+                    td 9/120	
+                    td $3.182.250	 
+                    td $29.701.000 
+                    td $12.729.000 
+                  tr
+                    td 8
+                    td 8/120
+                    td $2.828.667		 
+                    td $32.529.667	 
+                    td $9.900.333 
+                  tr
+                    td 9
+                    td 7/120	
+                    td $2.475.083	
+                    td $35.004.750	 
+                    td $7.425.250 
+                  tr
+                    td 10
+                    td 6/120	
+                    td $2.121.500		
+                    td $37.126.250	 
+                    td $5.303.750
+                  tr
+                    td 11
+                    td 5/120	
+                    td $1.767.917	 
+                    td $38.894.167
+                    td $3.535.833 
+                  tr
+                    td 12
+                    td 4/120	
+                    td $1.414.333		 
+                    td $40.308.500 
+                    td $2.121.500 
+                  tr
+                    td 13
+                    td 3/120	
+                    td $1.060.750 
+                    td $41.369.250	 
+                    td $1.060.750 
+                  tr
+                    td 14
+                    td 2/120	
+                    td $707.167	 
+                    td $42.076.417	 
+                    td $353.583
+                  tr
+                    td 15
+                    td 1/120	
+                    td $353.583 
+                    td $42.430.000  
+                    td $0 
     p.mb-4 Se puede observar que, comparado con el método de línea recta, en este método, en los primeros años el activo se deprecia más y en los últimos años su valor es menor.
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
@@ -1211,9 +1215,9 @@
       .col-lg-11
         .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #FED6A8")
           h4.mb-0 Ejemplo
-        p.mb-4 El 1 de diciembre de 2020, la empresa Contable SAS, adquiere por un año una póliza de seguro por valor de $12.000.000, cancela en efectivo 
+        p.mb-4 El 1 de diciembre de 2020, la empresa Contable SAS, adquiere por un año una póliza de seguro por valor de $12.000.000, cancela en efectivo. 
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 20.
           span Registro contable de la amortización
@@ -1237,9 +1241,9 @@
                 td Total	
                 td $12.000.000	
                 td $12.000.000
-    p.mb-4 Al finalizar el mes, es decir el 31 de diciembre se realiza la amortización del primer mes, teniendo en cuenta trasladar el valor mensual a la cuenta de gastos-clase 5, que se calcula de la siguiente manera:
+    p.mb-4 Al finalizar el mes, es decir, el 31 de diciembre, se realiza la amortización del primer mes, teniendo en cuenta trasladar el valor mensual a la cuenta de gastos-clase 5, que se calcula de la siguiente manera:
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-3
         .p-4(style="background-color: #FFFFFF")
           p.mb-0 Valor mensual= $12.000.000 / 12
             br
@@ -1247,7 +1251,7 @@
             |Valor mensual= $1.000.000
     p.mb-4 El valor de la póliza se divide en 12 meses, que corresponde al período de amortización. La contabilización del mes de diciembre se realiza como se muestra a continuación.
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 21.
           span Registro contable del gasto por seguros
@@ -1275,7 +1279,7 @@
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         .p-4.mb-4(style="background-color: #F3F0EA")
-          p.mb-0 Por otro lado, los activos intangibles se amortizan a medida que generan beneficios económicos para la empresa, teniendo en cuenta que estos poseen vida útil definida e indefinida, estos últimos, de acuerdo con la NIC 38, no se amortizan. Además, se tendrán en cuenta los criterios relacionados en la NIC 38 y las políticas diseñadas por la empresa. Cabe resaltar, que los activos intangibles inician el proceso de amortización una vez que estos se encuentren en condiciones de uso.
+          p.mb-0 Por otro lado, los activos intangibles se amortizan a medida que generan beneficios económicos para la empresa, teniendo en cuenta que estos poseen vida útil definida e indefinida, estos últimos, de acuerdo con la NIC 38, no se amortizan. Además, se tendrán en cuenta los criterios relacionados en la NIC 38 y las políticas diseñadas por la empresa. Cabe resaltar que los activos intangibles inician el proceso de amortización una vez que estos se encuentren en condiciones de uso.
 
         .bloque-texto-d.color-secundario.p-4
           .bloque-texto-d__texto.mb-2
@@ -1308,12 +1312,12 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 5.
       span Distribución de costos en el desarrollo de software
-    img.mb-4(src='@/assets/curso/temas/31.svg', alt='')
+    img.mb-4(src='@/assets/curso/temas/31.png', alt='')
     p.mb-4 El #[em software] estará apto para su uso el 01 de diciembre de 2020. Se estima una vida útil de 3 años. Se solicita realizar la medición inicial y la amortización del primer mes.
     .titulo-tres
       h3 Medición inicial:
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 22.
           span Registro del activo intangible en desarrollo
@@ -1350,7 +1354,7 @@
       h3 Amortización: 31 de diciembre de 2020
     p.mb-4 Se realiza por el mes de diciembre, teniendo en cuenta que el activo intangible es apto para su uso a partir del 1 de diciembre de 2020.
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-8
         .bg-white.p-4.mb-4
           p.mb-0 Costo Activo= $10.000.000
             br
@@ -1396,7 +1400,7 @@
           li.d-flex
             .lista-ol--cuadro__vineta
               span 1
-            p.mb-0 Una entidad puede llevar a cabo actividades en el extranjero de dos maneras diferentes. Puede realizar transacciones en moneda extranjera o bien puede tener negocios en el extranjero. Además, la entidad puede presentar sus estados financieros en una moneda extranjera. El objetivo de esta orma es prescribir cómo se incorporan, en los estados financieros de una entidad, las transacciones en moneda extranjera y los negocios en el extranjero, y cómo convertir los estados financieros a la moneda de presentación elegida.
+            p.mb-0 Una entidad puede llevar a cabo actividades en el extranjero de dos maneras diferentes. Puede realizar transacciones en moneda extranjera o bien puede tener negocios en el extranjero. Además, la entidad puede presentar sus estados financieros en una moneda extranjera. El objetivo de esta norma es prescribir cómo se incorporan, en los estados financieros de una entidad, las transacciones en moneda extranjera y los negocios en el extranjero, y cómo convertir los estados financieros a la moneda de presentación elegida.
           li.d-flex
             .lista-ol--cuadro__vineta
               span 2
@@ -1411,7 +1415,7 @@
     .titulo-tres
       h3 24 de noviembre de 2020
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 24.
           span Registro del activo intangible en desarrollo
@@ -1440,15 +1444,15 @@
     ol.lista-ol--cuadro
       li.d-flex
         .lista-ol--cuadro__vineta
-          span 1
+          span A
         p.mb-0 Se origina una diferencia por diferencia en cambio, aumenta el valor del pasivo.
 
       li.d-flex
         .lista-ol--cuadro__vineta
-          span 2
+          span B
         p.mb-0 A la llegada de la máquina a puerto colombiano, el valor de la obligación es mayor como consecuencia del incremento en la tasa de cambio. El nuevo saldo de la obligación es de $343.500.000. De acuerdo con la NIIF para las Pymes, el ajuste por diferencia en cambio debe incluirse en los resultados del período y no debe incluirse como parte del costo del activo.
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 25.
           span Registro de la diferencia en cambio (18 de diciembre de 2020)
@@ -1456,7 +1460,7 @@
           table
             thead(style="background-color: #FD9826 ").border-0
               tr
-                th 
+                th Cuenta
                 th Débito
                 th Crédito
             tbody
@@ -1494,14 +1498,14 @@
       .tarjeta.p-5.bg-white
         SlyderA(tipo='b')
           .row.justify-content-center
-            p.mb-4.fw-bold Carece de registro en libros, sin embargo, el dinero se utilizó para cancelar algún concepto 
-            .col-lg-5.mb-lg-0.mb-3
+            p.mb-4.fw-bold Carece de registro en libros; sin embargo, el dinero se utilizó para cancelar algún concepto. 
+            .col-lg-4.mb-lg-0.mb-3
               h5 Ejemplo: 
               p.mb-0 Sandra Rojas canceló por concepto de papelería $40.000, sin embargo, no se registró dicho concepto en los libros. Por lo tanto, se realiza el ajuste, registrando el concepto pendiente.
                 br
                 br
                 |Asiento de ajuste.
-            .col-lg-7
+            .col-lg-8
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Tabla 26.
                 span Registro de sobrante en caja
@@ -1515,7 +1519,7 @@
                   tbody
                     tr
                       td 	Gastos de papelería	
-                      td $40.000
+                      td $ 40.000
                       td 
                     tr
                       td 	Efectivo
@@ -1523,17 +1527,17 @@
                       td $40.000
                     tr
                       td Total		
-                      td $40.000
-                      td $40.000
+                      td $ 40.000
+                      td $ 40.000
           .row.justify-content-center
             p.mb-4.fw-bold Faltante injustificado, no se evidencia el concepto o soporte por el que falta dinero en la caja, una vez se realizó el arqueo. Por lo anterior, el colaborador es responsable de este suceso.
-            .col-lg-5.mb-lg-0.mb-3
+            .col-lg-4.mb-lg-0.mb-3
               h5 Ejemplo: 
-              p.mb-0 Presenta un faltante injustificado por valor de $50.000.
+              p.mb-0 Presenta un faltante injustificado por valor de $ 50.000.
                 br
                 br
                 |Asiento de ajuste.
-            .col-lg-7
+            .col-lg-8
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Tabla 27.
                 span Registro por faltante injustificado en caja
@@ -1547,16 +1551,16 @@
                   tbody
                     tr
                       td 	Efectivo
-                      td $50.000
+                      td $ 50.000
                       td 
                     tr
                       td 	Cuentas por cobrar a trabajadores
                       td 
-                      td $50.000
+                      td $ 50.000
                     tr
                       td 	Total	
-                      td $50.000
-                      td $50.000
+                      td $ 50.000
+                      td $ 50.000
     ol.lista-ol--cuadro
       li.d-flex
         .lista-ol--cuadro__vineta
@@ -1653,14 +1657,14 @@
         SlyderA(tipo='b')
           .row.justify-content-center
             p.mb-4.fw-bold 
-            .col-lg-5.mb-lg-0.mb-3
+            .col-lg-4.mb-lg-0.mb-3
               h5 Ejemplo 1: Registro compra chequera
 
               p.mb-0 La empresa Contable SAS, no registra la compra de chequera por valor de $180.000, más IVA del 19 %, la cual se encuentra registrada en el extracto bancario emitido por la entidad financiera.
                 br
                 br
                 |Asiento de ajuste.
-            .col-lg-7
+            .col-lg-8
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Tabla 30.
                 span Ejemplo 1: Registro de egreso por cheque
@@ -1690,13 +1694,13 @@
                       td $214.200
           .row.justify-content-center
             p.mb-4.fw-bold 
-            .col-lg-5.mb-lg-0.mb-3
+            .col-lg-4.mb-lg-0.mb-3
               h5 Ejemplo 2: Registro GMF:
               p.mb-0 En el extracto bancario se encuentra registrada una nota débito por concepto de Gravamen a los movimientos financieros por un valor de $90.300, el cual, no se encuentra registrado en los libros contables de la empresa.
                 br
                 br
                 |Asiento de ajuste.
-            .col-lg-7
+            .col-lg-8
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Tabla 31.
                 span Ejemplo 2: Registro GMF (Gravamen a los Movimientos Financieros)
@@ -1734,7 +1738,7 @@
               p.mb-0 En ocasiones se reflejan valores reconocidos en los libros contables y no registrados por la entidad financiera: este caso sucede cuando existen cheques pendientes de cobro o que han sido devueltos, también se presentan remesas en tránsito.
                 br
                 br
-                |En el extracto bancario existe una nota débito por concepto de un cheque girado por el cliente Carlos Téllez por valor de $600.000, consignado a la empresa contables SAS y devuelto por la entidad financiera por fondos insuficientes, por lo anterior, el importe no se encuentra registrado en los libros contables.
+                |En el extracto bancario existe una nota débito por concepto de un cheque girado por el cliente Carlos Téllez por valor de $ 600.000, consignado a la empresa contables SAS y devuelto por la entidad financiera por fondos insuficientes, por lo anterior, el importe no se encuentra registrado en los libros contables.
                 br
                 br
                 |Asiento de ajuste.
@@ -1767,7 +1771,7 @@
             .col-lg-5.mb-lg-0.mb-3
               h5 Ejemplo 4: Consignación realizada por el cliente y no registrada
 
-              p.mb-0 Al realizar la confrontación del extracto bancario con los libros de bancos, se observa que el extracto relaciona una nota crédito por valor de $550.000, correspondiente a la consignación realizada por el cliente Jorge Medina y no registrada por la empresa.
+              p.mb-0 Al realizar la confrontación del extracto bancario con los libros de bancos, se observa que el extracto relaciona una nota crédito por valor de $ 550.000, correspondiente a la consignación realizada por el cliente Jorge Medina y no registrada por la empresa.
                 br
                 br
                 |Se realiza la contabilización aumentando la cuenta de bancos y disminuyendo la cuenta de clientes.
@@ -1812,7 +1816,7 @@
             .col-lg-5.mb-lg-0.mb-3
               h5 Ejemplo 5: registro de menor valor de la consignación
 
-              p.mb-0 La empresa contable SAS realiza una consignación en la cuenta corriente por valor de $1.000.000; sin embargo, el registro contable aparece por $100.000.
+              p.mb-0 La empresa contable SAS realiza una consignación en la cuenta corriente por valor de $ 1.000.000; sin embargo, el registro contable aparece por $ 100.000.
                 br
                 br
                 |El ajuste se realiza por la diferencia, aumentado la cuenta de bancos.
@@ -1847,7 +1851,7 @@
             p.mb-4.fw-bold 
             .col-lg-5.mb-lg-0.mb-3
               h5 Ejemplo 6: registro de mayor valor de la consignación
-              p.mb-0 La empresa contable SAS realiza una consignación en la cuenta corriente por valor de $580.000; sin embargo, el registro contable aparece por $850.000.
+              p.mb-0 La empresa contable SAS realiza una consignación en la cuenta corriente por valor de $ 580.000; sin embargo, el registro contable aparece por $ 850.000.
                 br
                 br
                 |Asiento de ajuste.
@@ -1891,7 +1895,7 @@
             .col-lg-5.mb-lg-0.mb-3
               h5 Ejemplo 7: registro de menor valor del cheque
 
-              p.mb-0 La empresa contable SAS gira un cheque para cancelar mantenimiento de equipo por valor de $810.000; sin embargo, el registro contable aparece por $180.000.
+              p.mb-0 La empresa contable SAS gira un cheque para cancelar mantenimiento de equipo por valor de $ 810.000; sin embargo, el registro contable aparece por $ 180.000.
                 br
                 br
                 |Asiento de ajuste.
@@ -1923,7 +1927,7 @@
             p.mb-4.fw-bold 
             .col-lg-5.mb-lg-0.mb-3
               h5 Ejemplo 8: registro de mayor valor del cheque:
-              p.mb-0 La empresa contable SAS gira un cheque por valor de $3.200.000, para cancelar a los proveedores la mercancía; sin embargo, el registro contable aparece por $3.800.000.
+              p.mb-0 La empresa contable SAS gira un cheque por valor de $ 3.200.000, para cancelar a los proveedores la mercancía; sin embargo, el registro contable aparece por $ 3.800.000.
                   br
                   br
                   |Asiento de ajuste.
@@ -2089,11 +2093,11 @@
           li.d-flex
             .lista-ol--cuadro__vineta
               span 1
-            p.mb-0 Al realizar el arqueo de caja se observa que existe un faltante injustificado por valor de $35.000.
+            p.mb-0 Al realizar el arqueo de caja se observa que existe un faltante injustificado por valor de $ 35.000.
           li.d-flex
             .lista-ol--cuadro__vineta
               span 2
-            p.mb-0 La empresa no ha realizado el registro del GMF por valor de $85.000 de acuerdo con la nota débito reflejada en el extracto bancario.
+            p.mb-0 La empresa no ha realizado el registro del GMF por valor de $ 85.000 de acuerdo con la nota débito reflejada en el extracto bancario.
           li.d-flex
             .lista-ol--cuadro__vineta
               span 3
@@ -2221,7 +2225,7 @@
                 td $13.289.833
     p.mb-4 El ejercicio presentó utilidad, teniendo en cuenta que los ingresos superaron los costos y gastos; por lo tanto, se realizó el registro crédito aumentando el patrimonio. En el caso en que los ingresos sean inferiores a los costos y gastos, se refleja una pérdida en el ejercicio, disminuyendo el patrimonio (débito).
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 42.
           span Balance final de saldos contables

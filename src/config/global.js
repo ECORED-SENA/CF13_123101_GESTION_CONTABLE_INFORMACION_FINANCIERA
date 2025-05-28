@@ -189,11 +189,11 @@ export default {
     },
   ],
   referencias: [
-    {
-      referencia:
-        'Angulo, U. (2018). Contabilidad financiera, correlacionado con NIIF. (2a. ed.) Ediciones de la U.',
-      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=8047',
-    },
+    // {
+    //   referencia:
+    //     'Angulo, U. (2018). Contabilidad financiera, correlacionado con NIIF. (2a. ed.) Ediciones de la U.',
+    //   link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=8047',
+    // },
     {
       referencia:
         'Consejo Técnico de la Contaduría Pública (CTCP) (2020, 27 de noviembre). Norma Internacional de Contabilidad 7: Estados de flujos de efectivo.',

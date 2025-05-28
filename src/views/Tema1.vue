@@ -288,16 +288,16 @@
                     tbody
                       tr
                         td Costo Activo	
-                        td $100.000.000
+                        td.text-end.px-3 $100.000.000
                       tr
                         td IVA 19 %
-                        td $19.000.000
+                        td.text-end.px-3 $19.000.000
                       tr
                         td Instalación
-                        td $15.000.000
+                        td.text-end.px-3 $15.000.000
                       tr
                         td Costo Adquisición
-                        td $134.000.000
+                        td.text-end.px-3 $134.000.000
                 .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                   h5 Tabla 2. 
                   span Medición inicial contable
@@ -311,12 +311,12 @@
                     tbody
                       tr
                         td PPYE
-                        td $134.000.000
+                        td.text-end.px-3 $134.000.000
                         td 
                       tr
                         td Cuentas por pagar
                         td 
-                        td $134.000.000
+                        td.text-end.px-3 $134.000.000
           div
             .row.justify-content-center.mb-5
               .col-lg-8
@@ -332,13 +332,13 @@
                     tbody
                       tr
                         td Costo Activo
-                        td $134.000.000         
+                        td.text-end.px-3 $134.000.000         
                       tr
                         td Valor residual
-                        td $10.000.000        
+                        td.text-end.px-3 $10.000.000        
                       tr
                         td Importe de depreciación
-                        td $124.000.000           
+                        td.text-end.px-3 $124.000.000           
                 .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                   h5 Tabla 4. 
                   span Vida útil y depreciación
@@ -352,16 +352,16 @@
                     tbody
                       tr
                         td Anual
-                        td $124.000.000 / 10         
-                        td $12.400.000           
+                        td.text-end.px-3 $124.000.000 / 10         
+                        td.text-end.px-3 $12.400.000           
                       tr
                         td Mensual
-                        td $124.000.000 / 12           
-                        td $1.033.333           
+                        td.text-end.px-3 $124.000.000 / 12           
+                        td.text-end.px-3 $1.033.333           
                       tr
                         td Diaria
-                        td $1.033.333 / 30           
-                        td $34.444
+                        td.text-end.px-3 $1.033.333 / 30           
+                        td.text-end.px-3 $34.444
                 p.mb-0 El activo se encuentra apto para su uso a partir del 15 de agosto de 2020; por lo tanto, se tendrá en cuenta dicha fecha para iniciar el reconocimiento de la depreciación.         
           div
             .row.justify-content-center.mb-5
@@ -379,24 +379,24 @@
                     tbody
                       tr
                         td Agosto (10 días)
-                        td $291.104              
-                        td $291.104              
+                        td.text-end.px-3 $291.104              
+                        td.text-end.px-3 $291.104              
                       tr
                         td Septiembre (30 días)
-                        td $1.033.333              
-                        td $1.033.333              
+                        td.text-end.px-3 $1.033.333              
+                        td.text-end.px-3 $1.033.333              
                       tr
                         td Octubre (30 días)
-                        td $1.033.333              
-                        td $1.033.333              
+                        td.text-end.px-3 $1.033.333              
+                        td.text-end.px-3 $1.033.333              
                       tr
                         td Noviembre (30 días)
-                        td $1.033.333              
-                        td $1.033.333              
+                        td.text-end.px-3 $1.033.333              
+                        td.text-end.px-3 $1.033.333              
                       tr
                         td Diciembre (30 días)
-                        td $1.033.333              
-                        td $1.033.333 
+                        td.text-end.px-3 $1.033.333              
+                        td.text-end.px-3 $1.033.333 
                 p.mb-0 #[b Supuesto:] Prueba Deterioro: Importe recuperable < Valor en libros Deterioro             
           div
             .row.justify-content-center.mb-5
@@ -413,13 +413,13 @@
                     tbody
                       tr
                         td Costo activo
-                        td $134.000.000         
+                        td.text-end.px-3 $134.000.000         
                       tr
                         td Depreciación acumulada (ajuste)
-                        td $4.424.166         
+                        td.text-end.px-3 $4.424.166         
                       tr
                         td Importe en libros
-                        td $129.575.834
+                        td.text-end.px-3 $129.575.834
                 p.mb-4 #[b Importe recuperable:] $105.000.000
                   br
                   |#[b Deterioro:] $24.575.834         
@@ -436,12 +436,12 @@
                     tbody
                       tr
                         td Gasto Deterioro PPE
-                        td $24.315.564         
+                        td.text-end.px-3 $24.315.564         
                         td          
                       tr
                         td Deterioro PPE
                         td           
-                        td $2.315.564         
+                        td.text-end.px-3 $2.315.564         
     p.mb-4 Cabe resaltar, que hay Normas Internacionales que relacionan en su contenido las directrices para el reconocimiento del deterioro, entre ellas tenemos:
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 2.

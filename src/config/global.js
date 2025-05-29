@@ -133,7 +133,7 @@ export default {
         'Implementación de las normas internacionales de información financiera (NIIF) para las pequeñas y medianas empresas (Pymes) en Colombia',
       referencia:
         'Vergara Arrieta, J. J., Puerta Guardo, F. A., & Huertas Cardozo, N. C. (2023). Implementación de las normas internacionales de información financiera (NIIF) para las pequeñas y medianas empresas (Pymes) en Colombia. Contaduría y administración, 68(2).',
-      tipo: 'Ebook',
+      tipo: 'Web',
       link: 'http://www.cya.unam.mx/index.php/cya/article/view/2643/1985',
     },
   ],

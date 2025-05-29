@@ -129,11 +129,12 @@ export default {
   },
   complementario: [
     {
-      tema: 'Contabilidad financiera, correlacionado con NIIF',
+      tema:
+        'Implementación de las normas internacionales de información financiera (NIIF) para las pequeñas y medianas empresas (Pymes) en Colombia',
       referencia:
-        'Angulo, U. (2018). Contabilidad financiera, correlacionado con NIIF. (2a. ed.) Ediciones de la U.',
-      tipo: 'Capítulo 10',
-      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=8047',
+        'Vergara Arrieta, J. J., Puerta Guardo, F. A., & Huertas Cardozo, N. C. (2023). Implementación de las normas internacionales de información financiera (NIIF) para las pequeñas y medianas empresas (Pymes) en Colombia. Contaduría y administración, 68(2).',
+      tipo: 'Ebook',
+      link: 'http://www.cya.unam.mx/index.php/cya/article/view/2643/1985',
     },
   ],
   glosario: [

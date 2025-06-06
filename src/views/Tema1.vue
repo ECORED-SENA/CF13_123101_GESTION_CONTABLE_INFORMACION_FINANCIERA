@@ -2066,9 +2066,9 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 6.
+          h5 Tabla 38.
           span Balance de Comprobación de CONTABLE SAS
-        img(src='@/assets/curso/temas/38.svg', alt='')
+        img(src='@/assets/curso/temas/38.svg', alt='Tabla que presenta códigos, detalles contables y valores en columnas de debe y haber, incluyendo cuentas como caja, bancos, gastos por depreciación, ingresos financieros, y ajustes por anticipados y acumulados.')
     Separador 
     #t_1_8.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.8 Balance ajustado
@@ -2112,11 +2112,11 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 7.
+          h5 Tabla 39.
           span Comprobante de Ajustes – CONTABLE SAS
         img(src='@/assets/curso/temas/41.svg', alt='Tabla que presenta códigos, detalles contables y valores en columnas de debe y haber, incluyendo cuentas como caja, bancos, gastos por depreciación, ingresos financieros, y ajustes por anticipados y acumulados.')
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Figura 8.
+      h5 Tabla 40.
       span Hoja de Trabajo – CONTABLE SAS
     img.mb-4(src='@/assets/curso/temas/42.svg', alt='Tabla contable que presenta el código, cuenta, saldos de prueba, ajustes y saldos ajustados, con datos en debe y haber. Incluye cuentas como caja, bancos, clientes, inventarios, depreciación acumulada, gastos financieros y aportes sociales, detallando las modificaciones contables realizadas.')
     .titulo-tres
@@ -2133,7 +2133,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 40.
+          h5 Tabla 41.
           span Cierre de la cuenta de ingresos
         .tabla-a.color-acento-botones.mb-5
           table
@@ -2163,7 +2163,7 @@
                 td.text-right $42.549.000
                 td.text-right $42.549.000
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 41.
+          h5 Tabla 42.
           span Cierre de la cuenta de gastos
         .tabla-a.color-acento-botones.mb-5
           table
@@ -2199,7 +2199,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 42.
+          h5 Tabla 43.
           span Cierre de la cuenta de utilidad o pérdida
         .tabla-a.color-acento-botones.mb-5
           table
@@ -2225,7 +2225,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 43.
+          h5 Tabla 44.
           span Balance final de saldos contables
         .tabla-a.color-acento-botones.mb-5
           table

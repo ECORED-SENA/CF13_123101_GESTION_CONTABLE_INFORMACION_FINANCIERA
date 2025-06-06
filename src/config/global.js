@@ -113,7 +113,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/123101_CF13_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -133,7 +133,7 @@ export default {
         'Implementación de las normas internacionales de información financiera (NIIF) para las pequeñas y medianas empresas (Pymes) en Colombia',
       referencia:
         'Vergara Arrieta, J. J., Puerta Guardo, F. A., & Huertas Cardozo, N. C. (2023). Implementación de las normas internacionales de información financiera (NIIF) para las pequeñas y medianas empresas (Pymes) en Colombia. Contaduría y administración, 68(2).',
-      tipo: 'Web',
+      tipo: ' Página web',
       link: 'http://www.cya.unam.mx/index.php/cya/article/view/2643/1985',
     },
   ],
@@ -203,7 +203,7 @@ export default {
     },
     {
       referencia:
-        'CTCP (2020, 27 de noviembre). Norma Internacional de Contabilidad 21: Efectos de las Variaciones en las Tasas de Cambio de la Moneda Extranjera',
+        'CTCP (2020, 27 de noviembre). Norma Internacional de Contabilidad 21: Efectos de las Variaciones en las Tasas de Cambio de la Moneda Extranjera.',
       link:
         'https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/enmiendas-niif-16-y-segundo-semestre-2016/1514470523-2378',
     },
@@ -226,13 +226,13 @@ export default {
     },
     {
       referencia:
-        'Norma Internacional de Contabilidad 12. Impuesto a las ganancias (2020, 4 de diciembre )',
+        'Norma Internacional de Contabilidad 12. Impuesto a las ganancias (2020, 4 de diciembre).',
       link:
         'https://www.nicniif.org/files/u1/Norma_Internacional_de_Contabilidad_n___12.pdf',
     },
     {
       referencia:
-        'Norma Internacional de Contabilidad 13. Presentación de Estados Financieros. (2020, 4 de diciembre',
+        'Norma Internacional de Contabilidad 13. Presentación de Estados Financieros. (2020, 4 de diciembre).',
       link:
         'https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534363802-6328',
     },
@@ -290,14 +290,13 @@ export default {
         {
           nombre: 'Patricia Mantilla Galvis',
           cargo: 'Experta temática',
-          centro:
-            'Regional Distrito Capital - Centro de Servicios Financieros.',
+          centro: 'Centro de Servicios Financieros - Regional Distrito Capital',
         },
         {
           nombre: 'Paola Alexandra Moya',
           cargo: 'Evaluadora Instruccional',
           centro:
-            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -308,13 +307,13 @@ export default {
           nombre: 'Yerson Fabian Zarate Saavedra ',
           cargo: 'Diseñador de contenidos',
           centro:
-            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Cielo Damaris Angulo Rodriguez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
-            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -325,25 +324,25 @@ export default {
           nombre: 'Aixa Natalia Sendoya Fernández',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro:
-            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
+            ' Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro:
-            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Raúl Mosquera Serrano',
           cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
-            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
-            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },

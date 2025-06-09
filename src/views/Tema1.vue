@@ -287,16 +287,16 @@
                         th Valor
                     tbody
                       tr
-                        td Costo Activo	
+                        td.text-left Costo Activo	
                         td.text-right $100.000.000
                       tr
-                        td IVA 19 %
+                        td.text-left IVA 19 %
                         td.text-right $19.000.000
                       tr
-                        td Instalación
+                        td.text-left Instalación
                         td.text-right $15.000.000
                       tr
-                        td Costo Adquisición
+                        td.text-left Costo Adquisición
                         td.text-right $134.000.000
                 .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                   h5 Tabla 2. 
@@ -310,11 +310,11 @@
                         th Haber
                     tbody
                       tr
-                        td PPYE
+                        td.text-left PPYE
                         td.text-right $134.000.000
                         td.text-right -
                       tr
-                        td Cuentas por pagar
+                        td.text-left Cuentas por pagar
                         td.text-right -
                         td.text-right $134.000.000
           div
@@ -331,13 +331,13 @@
                         th Valor
                     tbody
                       tr
-                        td Costo Activo
+                        td.text-left Costo Activo
                         td.text-right $134.000.000         
                       tr
-                        td Valor residual
+                        td.text-left Valor residual
                         td.text-right $10.000.000        
                       tr
-                        td Importe de depreciación
+                        td.text-left Importe de depreciación
                         td.text-right $124.000.000           
                 .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                   h5 Tabla 4. 
@@ -346,20 +346,20 @@
                   table
                     thead(style="background-color: #FD9826 ").border-0
                       tr
-                        th Valor en libros
+                        th Frecuencia
                         th Cálculo
                         th Valor
                     tbody
                       tr
-                        td Anual
+                        td.text-left Anual
                         td.text-right $124.000.000 / 10         
                         td.text-right $12.400.000           
                       tr
-                        td Mensual
+                        td.text-left Mensual
                         td.text-right $124.000.000 / 12           
                         td.text-right $1.033.333           
                       tr
-                        td Diaria
+                        td.text-left Diaria
                         td.text-right $1.033.333 / 30           
                         td.text-right $34.444
                 p.mb-0 El activo se encuentra apto para su uso a partir del 15 de agosto de 2020; por lo tanto, se tendrá en cuenta dicha fecha para iniciar el reconocimiento de la depreciación.         
@@ -375,26 +375,26 @@
                       tr
                         th Mes
                         th Debe (Gasto depreciación PPE)
-                        th  (PPE depreciación acumulada)
+                        th (PPE depreciación acumulada)
                     tbody
                       tr
-                        td Agosto (10 días)
+                        td.text-left Agosto (10 días)
                         td.text-right $291.104              
                         td.text-right $291.104              
                       tr
-                        td Septiembre (30 días)
+                        td.text-left Septiembre (30 días)
                         td.text-right $1.033.333              
                         td.text-right $1.033.333              
                       tr
-                        td Octubre (30 días)
+                        td.text-left Octubre (30 días)
                         td.text-right $1.033.333              
                         td.text-right $1.033.333              
                       tr
-                        td Noviembre (30 días)
+                        td.text-left Noviembre (30 días)
                         td.text-right $1.033.333              
                         td.text-right $1.033.333              
                       tr
-                        td Diciembre (30 días)
+                        td.text-left Diciembre (30 días)
                         td.text-right $1.033.333              
                         td.text-right $1.033.333 
                 p.mb-0 #[b Supuesto:] Prueba Deterioro: Importe recuperable < Valor en libros Deterioro             
@@ -408,17 +408,17 @@
                   table
                     thead(style="background-color: #FD9826 ").border-0
                       tr
-                        th Valor en libros
+                        th Concepto
                         th Valor
                     tbody
                       tr
-                        td Costo activo
+                        td.text-left Costo activo
                         td.text-right $134.000.000         
                       tr
-                        td Depreciación acumulada (ajuste)
+                        td.text-left Depreciación acumulada (ajuste)
                         td.text-right $4.424.166         
                       tr
-                        td Importe en libros
+                        td.text-left Importe en libros
                         td.text-right $129.575.834
                 p.mb-4 #[b Importe recuperable:] $105.000.000
                   br
@@ -435,11 +435,11 @@
                         th Haber
                     tbody
                       tr
-                        td Gasto Deterioro PPE
+                        td.text-left Gasto Deterioro PPE
                         td.text-right $24.315.564         
                         td.text-right -
                       tr
-                        td Deterioro PPE
+                        td.text-left Deterioro PPE
                         td.text-right -
                         td.text-right $2.315.564         
     p.mb-4 Cabe resaltar, que hay Normas Internacionales que relacionan en su contenido las directrices para el reconocimiento del deterioro, entre ellas tenemos:
@@ -478,13 +478,13 @@
                 th Valor
             tbody
               tr
-                td Precio de adquisición
+                td.text-left Precio de adquisición
                 td.text-right $2.500.000
               tr
-                td Impuestos recuperables
+                td.text-left Impuestos recuperables
                 td.text-right $ 0
               tr.fw-bold
-                td Total costo adquisición
+                td.text-left Total costo adquisición
                 td.text-right $2.500.000
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 9. 
@@ -498,27 +498,27 @@
                 th Haber
             tbody
               tr
-                td Inventarios
+                td.text-left Inventarios
                 td.text-right $2.500.000
                 td.text-right -
               tr
-                td IVA
+                td.text-left IVA
                 td.text-right $475.000
                 td.text-right -
               tr
-                td RF 2,5 %
+                td.text-left RF 2,5 %
                 td.text-right -
                 td.text-right $62.500
               tr
-                td RICA (11,04 * 1000)
+                td.text-left RICA (11,04 * 1000)
                 td.text-right -
                 td.text-right $27.600
               tr
-                td Proveedores Nacionales
+                td.text-left Proveedores Nacionales
                 td.text-right -
                 td.text-right $2.884.900
               tr.fw-bold
-                td Total
+                td.text-left Total
                 td.text-right $2.975.000
                 td.text-right $2.975.000
     .titulo-tres
@@ -537,13 +537,13 @@
                 th Valor
             tbody
               tr
-                td Valor en libros
+                td.text-left Valor en libros
                 td.text-right $2.500.000                
               tr
-                td Valor neto realizable (PV - gastos)
+                td.text-left Valor neto realizable (PV - gastos)
                 td.text-right $2.300.000                 
               tr
-                td.fw-bold Deterioro
+                td.text-left.fw-bold Deterioro
                 td.text-right $200.000                
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 11. 
@@ -557,11 +557,11 @@
                 th Haber
             tbody
               tr
-                td Gastos deterioro
+                td.text-left Gastos deterioro
                 td.text-right $200.000
                 td.text-right -
               tr
-                td Deterioro inventarios
+                td.text-left Deterioro inventarios
                 td.text-right -
                 td.text-right $200.000
     .titulo-tres
@@ -606,17 +606,17 @@
                 th Haber
             tbody
               tr
-                td Gastos Deterioro
+                td.text-left Gastos Deterioro
                 td.text-right $6598.139
                 td.text-right -
               tr
-                td Deterioro clientes
+                td.text-left Deterioro clientes
                 td.text-right -
                 td.text-right $6.598.139
               tr
-                td TOTAL	
-                td.text-right $6.598.139
-                td.text-right $6.598.139
+                td.fw-bold TOTAL	
+                td.text-right.fw-bold $6.598.139
+                td.text-right.fw-bold $6.598.139
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.2 Depreciaciones
@@ -684,81 +684,80 @@
           table
             thead(style="background-color: #FD9826 ").border-0
               tr
-                th Cuenta 
-                th Valor
-                th Unidad
+                th Activo  
+                th Tasa de depreciación anual
+                th Vida útil equivalente
             tbody
               tr
-                td Construcciones y edificaciones	
+                td.text-left Construcciones y edificaciones	
                 td.text-right 2,22 %	
                 td 45 años
               tr
-                td Acueducto, planta y redes	
+                td.text-left Acueducto, planta y redes	
                 td.text-right 2,50 %	
                 td 40 años
               tr
-                td Vías de comunicación	
-
+                td.text-left Vías de comunicación	
                 td.text-right 2,50 %	
                 td 40 años
               tr
-                td Flota y equipo aéreo	
+                td.text-left Flota y equipo aéreo	
                 td.text-right 3,33 %	
                 td 30 años
 
               tr
-                td Flota y equipo férreo
+                td.text-left Flota y equipo férreo
                 td.text-right 5,00 %	
 
                 td 20 años
 
               tr
-                td Flota y equipo fluvial
+                td.text-left Flota y equipo fluvial
                 td.text-right 6,67 %
                 td 15 años
               tr
-                td Armamento y equipo de vigilancia
+                td.text-left Armamento y equipo de vigilancia
                 td.text-right 10,00 %
                 td 10 años
               tr
-                td Equipo eléctrico
+                td.text-left Equipo eléctrico
                 td.text-right 10,00 %
                 td 10 años
               tr
-                td Flota y equipo de transporte terrestre
+                td.text-left Flota y equipo de transporte terrestre
                 td.text-right 10,00 %
                 td 10 años
               tr
-                td Maquinaria, equipos	
+                td.text-left Maquinaria, equipos	
                 td.text-right 10,00 %
                 td 10 años
               tr
-                td Muebles y enseres	
+                td.text-left Muebles y enseres	
                 td.text-right 10,00 %
                 td 10 años
 
               tr
-                td Equipo médico científico	
+                td.text-left Equipo médico científico	
                 td.text-right 12,50 %
                 td 8 años
 
               tr
-                td Envases, empaques y herramientas	
+                td.text-left Envases, empaques y herramientas	
                 td.text-right 20,00 %
 
                 td 5 años
               tr
-                td Equipo de computación
+                td.text-left Equipo de computación
 
                 td.text-right 20,00 %
 
                 td 5 años
               tr
-                td Redes de procesamiento de datos
+                td.text-left Redes de procesamiento de datos
                 td.text-right 20,00 %
                 td 5 años
               tr
-                td Equipo de comunicación
+                td.text-left Equipo de comunicación
                 td.text-right 20,00 %
                 td 5 años
     .row.justify-content-center.mb-5
@@ -787,26 +786,26 @@
           table
             thead(style="background-color: #FD9826 ").border-0
               tr
-                th Valor en libros
-                th Valor en libros
+                th Concepto
+                th Valor
             tbody
               tr
-                td Costo Activo	
+                td.text-left Costo Activo	
                 td.text-right $35.000.000
               tr
-                td IVA
+                td.text-left IVA
                 td.text-right $6.650.000
               tr
-                td MO instalación
+                td.text-left Mano de obra instalación
                 td.text-right $300.000
               tr
-                td Materiales instalación
+                td.text-left Materiales instalación
                 td.text-right $180.000
               tr
-                td MO instalación
+                td.text-left Mano de obra instalación
                 td.text-right $300.000
               tr
-                td Costo
+                td.text-left Costo
                 td.text-right $42.430.000
       .col-lg-6.mb-lg-0.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -816,20 +815,20 @@
           table
             thead(style="background-color: #FD9826 ").border-0
               tr
-                th Cuenta
-                th Debe
-                th Hacer
+                th Frecuencia
+                th Cálculo
+                th Valor
             tbody
               tr
-                td.text-right $42.430.000 / 15
+                td.text-left Anual
                 td.text-right $42.430.000 / 15
                 td.text-right $2.828.667
               tr
-                td.text-right  $2.828.667 / 12	
+                td.text-left Mensual
                 td.text-right $2.828.667 / 12
                 td.text-right $235.722
               tr
-                td.text-right  $235.722 / 30
+                td.text-left Diaria
                 td.text-right $235.722 / 30
                 td.text-right $7.857
     p.mb-4 El activo se encuentra apto para su uso a partir del 12 de noviembre de 2020; por lo tanto, se tendrá en cuenta dicha fecha para iniciar el reconocimiento de la depreciación; lo que corresponde a 19 días.
@@ -844,18 +843,18 @@
               tr
                 th Cuenta
                 th Debe
-                th Hacer
+                th Haber
             tbody
               tr
-                td Gastos depreciación PPE
+                td.text-left Gastos depreciación PPE
                 td.text-right $149.283      
                 td.text-right -
               tr
-                td PPE Depreciación acumulada	
+                td.text-left PPE Depreciación acumulada	
                 td.text-right -
                 td.text-right $149.283        
               tr.fw-bold
-                td Total	
+                td.text-left.fw-bold Total	
                 td.text-right $149.283         
                 td.text-right $149.283         
       .col-lg-6.mb-lg-0.mb-3
@@ -868,18 +867,18 @@
               tr
                 th Cuenta
                 th Debe
-                th Hacer
+                th Haber
             tbody
               tr
-                td Gastos depreciación PPE
+                td.text-left Gastos depreciación PPE
                 td.text-right $235.722      
                 td.text-right -
               tr
-                td PPE Depreciación acumulada		
+                td.text-left PPE Depreciación acumulada		
                 td.text-right -
                 td.text-right $235.722        
               tr.fw-bold
-                td Total		
+                td.fw-bold Total		
                 td.text-right $235.722        
                 td.text-right $235.722  
     .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #FED6A8") 
@@ -913,7 +912,7 @@
                 thead(style="background-color: #FD9826 ").border-0
                   tr
                     th Años
-                    th Factor
+                    th Fecha 
                     th Depreciación anual
                     th Depreciación acumulada
                     th Valor en libros
@@ -1229,15 +1228,15 @@
                 th Haber
             tbody
               tr
-                td Anticipo - seguros
+                td.text-left Anticipo - seguros
                 td.text-right $12.000.000
                 td.text-right -
               tr
-                td Efectivo
+                td.text-left Efectivo
                 td.text-right -
                 td.text-right $12.000.000
               tr
-                td Total	
+                td.fw-bold Total	
                 td.text-right $12.000.000	
                 td.text-right $12.000.000
     p.mb-4 Al finalizar el mes, es decir, el 31 de diciembre, se realiza la amortización del primer mes, teniendo en cuenta trasladar el valor mensual a la cuenta de gastos-clase 5, que se calcula de la siguiente manera:
@@ -1263,17 +1262,17 @@
                 th Haber
             tbody
               tr
-                td Gastos seguros
+                td.text-left Gastos seguros
                 td.text-right $1.000.000
                 td.text-right -
               tr
-                td Anticipo – seguros
+                td.text-left Anticipo - seguros
                 td.text-right -
                 td.text-right $1.000.000
               tr
-                td Total	
-                td.text-right $1.000.000
-                td.text-right $1.000.000
+                td.fw-bold Total	
+                td.text-right.fw-bold $1.000.000
+                td.text-right.fw-bold $1.000.000
     p.mb-4 En el año 2021, continúa el proceso de amortización, una vez se haya consumido o recibido el servicio, hasta que la cuenta del activo quede en cero (0) y su valor sea trasladado al gasto, el cual se verá reflejado en el estado de resultados.
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
@@ -1329,25 +1328,25 @@
                 th Haber
             tbody
               tr
-                td Activo intangible en desarrollo - personal
+                td.text-left Activo intangible en desarrollo - personal
                 td.text-right $5.500.000
                 td.text-right -
               tr
-                td Activo intangible en desarrollo - Materiales e insumos
+                td.text-left Activo intangible en desarrollo - Materiales e insumos
                 td.text-right $3.300.000	
                 td.text-right -
               tr
-                td Activo intangible en desarrollo - Pruebas	
+                td.text-left Activo intangible en desarrollo - Pruebas	
                 td.text-right 1.200.000
                 td.text-right -
               tr
-                td Efectivo	
+                td.text-left Efectivo	
                 td.text-right -
                 td.text-right $10.000.000
               tr
-                td Total	
-                td.text-right $10.000.000
-                td.text-right $10.000.000
+                td.fw-bold Total	
+                td.text-right.fw-bold $10.000.000
+                td.text-right.fw-bold $10.000.000
     .titulo-tres
       h3 Amortización: 31 de diciembre de 2020
     p.mb-4 Se realiza por el mes de diciembre, teniendo en cuenta que el activo intangible es apto para su uso a partir del 1 de diciembre de 2020.
@@ -1375,17 +1374,17 @@
                 th Haber
             tbody
               tr
-                td Gasto intangible - Software
+                td.text-left Gasto intangible - Software
                 td.text-right $277.778
                 td.text-right -
               tr
-                td Activo intangible - software
+                td.text-left Activo intangible - software
                 td.text-right -
                 td.text-right $277.778
               tr
-                td Total	
-                td.text-right $277.778
-                td.text-right $277.778
+                td.fw-bold Total	
+                td.text-right.fw-bold $277.778
+                td.text-right.fw-bold $277.778
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.4 Diferencia en cambio
     .row.justify-content-center.mb-5
@@ -1422,21 +1421,21 @@
             thead(style="background-color: #FD9826 ").border-0
               tr
                 th Cuenta
-                th Debe
-                th Haber
+                th Débito
+                th Crédito
             tbody
               tr
-                td Propiedades, planta y equipo - Maquinaria	
+                td.text-left Propiedades, planta y equipo - Maquinaria	
                 td.text-right $199.500.000
                 td.text-right -
               tr
-                td Pasivo - Acreedores del exterior	
+                td.text-left Pasivo - Acreedores del exterior	
                 td.text-right -
                 td.text-right $199.500.000
               tr
-                td Total
-                td.text-right $199.500.000
-                td.text-right $199.500.000
+                td.fw-bold Total
+                td.text-right.fw-bold $199.500.000
+                td.text-right.fw-bold $199.500.000
     .titulo-tres
       h3 18 de diciembre de 2020
     ol.lista-ol--cuadro
@@ -1463,17 +1462,17 @@
                 th Crédito
             tbody
               tr
-                td 	Gasto - Diferencia en cambio	
+                td.text-left Gasto - Diferencia en cambio	
                 td.text-right $6.840.000
                 td.text-right -
               tr
-                td Pasivo - Acreedores del exterior		
+                td.text-left Pasivo - Acreedores del exterior		
                 td.text-right -
                 td.text-right $6.840.000
               tr
-                td 	Total
-                td.text-right $6.840.000
-                td.text-right $6.840.000
+                td.fw-bold Total
+                td.text-right.fw-bold $6.840.000
+                td.text-right.fw-bold $6.840.000
     Separador
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.5 Arqueo de caja
@@ -1512,21 +1511,21 @@
                   thead(style="background-color: #FD9826 ").border-0
                     tr
                       th Cuenta
-                      th Débito
-                      th Crédito
+                      th Debe
+                      th Haber
                   tbody
                     tr
-                      td 	Gastos de papelería	
+                      td.text-left 	Gastos de papelería	
                       td.text-right $40.000
                       td.text-right -
                     tr
-                      td 	Efectivo
+                      td.text-left 	Efectivo
                       td.text-right -
                       td.text-right $40.000
                     tr
-                      td Total		
-                      td.text-right $40.000
-                      td.text-right $40.000
+                      td.fw-bold Total		
+                      td.text-right.fw-bold $40.000
+                      td.text-right.fw-bold $40.000
           .row.justify-content-center
             p.mb-4.fw-bold Faltante injustificado, no se evidencia el concepto o soporte por el que falta dinero en la caja, una vez se realizó el arqueo. Por lo anterior, el colaborador es responsable de este suceso.
             .col-lg-4.mb-lg-0.mb-3
@@ -1544,21 +1543,21 @@
                   thead(style="background-color: #FD9826 ").border-0
                     tr
                       th Cuenta
-                      th Débito
-                      th Crédito
+                      th Debe
+                      th Haber
                   tbody
                     tr
-                      td 	Efectivo
+                      td.text-left 	Efectivo
                       td.text-right $50.000
                       td.text-right -
                     tr
-                      td 	Cuentas por cobrar a trabajadores
+                      td.text-left 	Cuentas por cobrar a trabajadores
                       td.text-right -
                       td.text-right $50.000
                     tr
-                      td 	Total	
-                      td.text-right $50.000
-                      td.text-right $50.000
+                      td.fw-bold 	Total	
+                      td.text-right.fw-bold $50.000
+                      td.text-right.fw-bold $50.000
     ol.lista-ol--cuadro
       li.d-flex
         .lista-ol--cuadro__vineta
@@ -1582,21 +1581,21 @@
                   thead(style="background-color: #FD9826 ").border-0
                     tr
                       th Cuenta
-                      th Débito
-                      th Crédito
+                      th Debe
+                      th Haber
                   tbody
                     tr
-                      td 	Efectivo
+                      td.text-left 	Efectivo
                       td.text-right $500.000
                       td.text-right -
                     tr
-                      td 	Deudores comerciales - cientes
+                      td.text-left 	Deudores comerciales - cientes
                       td.text-right -
                       td.text-right $500.000
                     tr
-                      td Total	
-                      td.text-right $500.000
-                      td.text-right $500.000
+                      td.fw-bold Total	
+                      td.text-right.fw-bold $500.000
+                      td.text-right.fw-bold $500.000
       .py-4.py-md-5.px-5(titulo="Sobrantes en la caja injustificados")
         .row.justify-content-center
             .col-lg-5.mb-lg-0.mb-3
@@ -1617,21 +1616,21 @@
                   thead(style="background-color: #FD9826 ").border-0
                     tr
                       th Cuenta
-                      th Débito
-                      th Crédito
+                      th Debe
+                      th Haber
                   tbody
                     tr
-                      td 	Efectivo
+                      td.text-left 	Efectivo
                       td.text-right $20.000
                       td.text-right -
                     tr
-                      td 	Ingreso - sobrante de caja
+                      td.text-left 	Ingreso - sobrante de caja
                       td.text-right -
                       td.text-right $20.000
                     tr
-                      td Total	
-                      td.text-right $20.000
-                      td.text-right $20.000
+                      td.fw-bold Total	
+                      td.text-right.fw-bold $20.000
+                      td.text-right.fw-bold $20.000
     Separador
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.6 Conciliación bancaria
@@ -1671,25 +1670,25 @@
                   thead(style="background-color: #FD9826 ").border-0
                     tr
                       th Cuenta
-                      th Débito
-                      th Crédito
+                      th Debe
+                      th Haber
                   tbody
                     tr
-                      td 	Gastos bancarios (chequera)
+                      td.text-left 	Gastos bancarios (chequera)
                       td.text-right $180.000
                       td.text-right -
                     tr
-                      td 	IVA
+                      td.text-left 	IVA
                       td.text-right $34.200
                       td.text-right -
                     tr
-                      td 	Bancos
+                      td.text-left 	Bancos
                       td.text-right -
                       td.text-right $214.200
                     tr
-                      td 	Total
-                      td.text-right $214.200
-                      td.text-right $214.200
+                      td.fw-bold 	Total
+                      td.text-right.fw-bold $214.200
+                      td.text-right.fw-bold $214.200
           .row.justify-content-center
             p.mb-4.fw-bold 
             .col-lg-4.mb-lg-0.mb-3
@@ -1707,21 +1706,21 @@
                   thead(style="background-color: #FD9826 ").border-0
                     tr
                       th Cuenta
-                      th Débito
-                      th Crédito
+                      th Debe
+                      th Haber
                   tbody
                     tr
-                      td Gastos Financieros (GMF)		
+                      td.text-left Gastos Financieros (GMF)		
                       td.text-right $90.300
                       td 
                     tr
-                      td Bancos		
-                      td 
+                      td.text-left Bancos		
+                      td.text-right -
                       td.text-right $9.300
                     tr
-                      td Total
-                      td.text-right $9.300
-                      td.text-right $9.300
+                      td.fw-bold Total
+                      td.text-right.fw-bold $9.300
+                      td.text-right.fw-bold $9.300
     ul.lista-ul--color
       li
         i.fas.fa-circle.fa-xs
@@ -1749,21 +1748,21 @@
                   thead(style="background-color: #FD9826 ").border-0
                     tr
                       th Cuenta
-                      th Débito
-                      th Crédito
+                      th Debe
+                      th Haber
                   tbody
                     tr
-                      td Clientes
+                      td.text-left Clientes
                       td.text-right $600.000
                       td
                     tr
-                      td Bancos
-                      td 
+                      td.text-left Bancos
+                      td.text-right - 
                       td.text-right $600.000
                     tr
-                      td Total
-                      td.text-right $600.000
-                      td.text-right $600.000
+                      td.fw-bold Total
+                      td.text-right.fw-bold $600.000
+                      td.text-right.fw-bold $600.000
           .row.justify-content-center
             p.mb-4.fw-bold 
             .col-lg-5.mb-lg-0.mb-3
@@ -1786,21 +1785,21 @@
                   thead(style="background-color: #FD9826 ").border-0
                     tr
                       th Cuenta
-                      th Débito
-                      th Crédito
+                      th Debe
+                      th Haber
                   tbody
                     tr
-                      td Bancos
+                      td.text-left Clientes
                       td.text-right $550.000
-                      td
+                      td.text-right -
                     tr
-                      td Clientes
-                      td 
+                      td.text-left Bancos
+                      td.text-right - 
                       td.text-right $550.000
                     tr
-                      td Total	
-                      td.text-right $550.000
-                      td.text-right $550.000
+                      td.fw-bold Total	
+                      td.text-right.fw-bold $550.000
+                      td.text-right.fw-bold $550.000
     ol.lista-ol--cuadro.mb-5
       li.d-flex
         .lista-ol--cuadro__vineta
@@ -1830,21 +1829,21 @@
                   thead(style="background-color: #FD9826 ").border-0
                     tr
                       th Cuenta
-                      th Débito
-                      th Crédito
+                      th Debe
+                      th Haber
                   tbody
                     tr
-                      td Bancos
-                      td.text-right $90.000
-                      td
-                    tr
-                      td Efectivo (caja)
-                      td 
-                      td.text-right $90.000
-                    tr
-                      td Total	
+                      td.text-left Clientes
                       td.text-right $900.000
-                      td.text-right $900.000
+                      td.text-right -
+                    tr
+                      td.text-left Efectivo (caja)
+                      td.text-right - 
+                      td.text-right $90.000
+                    tr
+                      td.fw-bold Total	
+                      td.text-right.fw-bold $900.000
+                      td.text-right.fw-bold $900.000
           .row.justify-content-center
             p.mb-4.fw-bold 
             .col-lg-5.mb-lg-0.mb-3
@@ -1862,21 +1861,21 @@
                   thead(style="background-color: #FD9826 ").border-0
                     tr
                       th Cuenta
-                      th Débito
-                      th Crédito
+                      th Debe
+                      th Haber
                   tbody
                     tr
-                      td Efectivo (caja)
+                      td.text-left Efectivo (caja)
                       td.text-right $270.000
-                      td
+                      td.text-right -
                     tr
-                      td Bancos
-                      td 
+                      td.text-left Bancos
+                      td.text-right - 
                       td.text-right $270.000
                     tr
-                      td Total	
-                      td.text-right $270.000
-                      td.text-right $270.000
+                      td.fw-bold Total	
+                      td.text-right.fw-bold $270.000
+                      td.text-right.fw-bold $270.000
     ol.lista-ol--cuadro.mb-5
           li.d-flex
             .lista-ol--cuadro__vineta
@@ -1906,21 +1905,21 @@
                   thead(style="background-color: #FD9826 ").border-0
                     tr
                       th Cuenta
-                      th Débito
-                      th Crédito
+                      th Debe
+                      th Haber
                   tbody
                     tr
-                      td Gastos de mantenimiento de equipos	
+                      td.text-left Gastos de mantenimiento de equipos	
                       td.text-right $630.000
-                      td
+                      td.text-right -
                     tr
-                      td Bancos
+                      td.text-left Bancos
                       td.text-right $630.000
-                      td
+                      td.text-right -
                     tr
-                      td Total	
-                      td.text-right $630.000
-                      td.text-right $630.000
+                      td.fw-bold Total	
+                      td.text-right.fw-bold $630.000
+                      td.text-right.fw-bold $630.000
           .row.justify-content-center
             p.mb-4.fw-bold 
             .col-lg-5.mb-lg-0.mb-3
@@ -1938,21 +1937,21 @@
                   thead(style="background-color: #FD9826 ").border-0
                     tr
                       th Cuenta
-                      th Débito
-                      th Crédito
+                      th Debe
+                      th Haber
                   tbody
                     tr
-                      td Bancos	
+                      td.text-left Bancos	
                       td.text-right $600.000
-                      td
+                      td.text-right -
                     tr
-                      td Proveedores	
-                      td 
+                      td.text-left Proveedores	
+                      td.text-right - 
                       td.text-right $600.000
                     tr
-                      td Total	
-                      td.text-right $600.000
-                      td.text-right $600.000
+                      td.fw-bold Total	
+                      td.text-right.fw-bold $600.000
+                      td.text-right.fw-bold $600.000
     Separador
     #t_1_7.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.7 Balance de prueba
@@ -1987,86 +1986,86 @@
             tbody
               tr
                 td 1105
-                td Caja
+                td.text-left Caja
                 td.text-right $409.000
               tr
                 td 1110
-                td Bancos
+                td.text-left Bancos
                 td.text-right $17.680.000
               tr
                 td 1705
-                td Gastos pagados por anticipado
+                td.text-left Gastos pagados por anticipado
                 td.text-right $1.170.000
               tr
                 td 1305
-                td Clientes
+                td.text-left Clientes
                 td.text-right $5.070.000
               tr
                 td 1365
-                td Cuentas por cobrar a trabajadores
+                td.text-left Cuentas por cobrar a trabajadores
                 td.text-right $520.000
               tr
                 td 1435
-                td Inventarios
+                td.text-left Inventarios
                 td.text-right $32.500.000
               tr
                 td 1524
-                td Equipo de oficina
+                td.text-left Equipo de oficina
                 td.text-right $6.500.000
               tr
                 td 1540
-                td Flota y equipo de transporte
+                td.text-left Flota y equipo de transporte
                 td.text-right $62.400.000
               tr
                 td 1592
-                td Depreciación acumulada
+                td.text-left Depreciación acumulada
                 td.text-right $7.670.000
               tr
                 td 2105
-                td Obligaciones nacionales
+                td.text-left Obligaciones nacionales
                 td.text-right $630.000
               tr
                 td 2205
-                td Proveedores nacionales
+                td.text-left Proveedores nacionales
                 td.text-right $3.120.000
               tr
                 td 2408
-                td Impuestos sobre las ventas por pagar
+                td.text-left Impuestos sobre las ventas por pagar
                 td.text-right $910.000
               tr
                 td 2705
-                td Ingresos recibidos por anticipado
+                td.text-left Ingresos recibidos por anticipado
                 td.text-right $130.000
               tr
                 td 3115
-                td Aportes sociales
+                td.text-left Aportes sociales
                 td.text-right $98.800.000
               tr
                 td 5105
-                td Gastos de personal
+                td.text-left Gastos de personal
                 td.text-right $4.160.000
               tr
                 td 4135
-                td Ingresos ordinarios
+                td.text-left Ingresos ordinarios
                 td.text-right $42.120.000
               tr
                 td 4210
-                td Ingresos Financieros
+                td.text-left Ingresos Financieros
                 td.text-right $364.000
               tr
                 td 5305
-                td Gastos Financieros
+                td.text-left Gastos Financieros
                 td.text-right $585.000
               tr
                 td 6135
-                td Costo de ventas
+                td.text-left Costo de ventas
                 td.text-right $22.750.000
       .col-lg-5.col-7: img(src='@/assets/curso/temas/37.svg', alt='')
     p.mb-4 Para elaborar el balance de comprobación o de prueba es importante organizar cada una de las cuentas teniendo en cuenta la clase de activo, pasivo, patrimonio, ingresos, gastos y costos, luego se traslada el saldo de acuerdo con la naturaleza de cada cuenta. Finalmente, se verifica que el total débito y crédito tengan el mismo valor. A continuación, observe la solución del ejercicio planteado:
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 38.
+          h5 Tabla 40.
           span Balance de Comprobación de CONTABLE SAS
         img(src='@/assets/curso/temas/38.svg', alt='Tabla que presenta códigos, detalles contables y valores en columnas de debe y haber, incluyendo cuentas como caja, bancos, gastos por depreciación, ingresos financieros, y ajustes por anticipados y acumulados.')
     Separador 
@@ -2112,11 +2111,11 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 39.
-          span Comprobante de Ajustes – CONTABLE SAS
+          h5 Tabla 41.
+          span Comprobante de Ajustes - CONTABLE SAS
         img(src='@/assets/curso/temas/41.svg', alt='Tabla que presenta códigos, detalles contables y valores en columnas de debe y haber, incluyendo cuentas como caja, bancos, gastos por depreciación, ingresos financieros, y ajustes por anticipados y acumulados.')
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Tabla 40.
+      h5 Tabla 42.
       span Hoja de Trabajo – CONTABLE SAS
     img.mb-4(src='@/assets/curso/temas/42.svg', alt='Tabla contable que presenta el código, cuenta, saldos de prueba, ajustes y saldos ajustados, con datos en debe y haber. Incluye cuentas como caja, bancos, clientes, inventarios, depreciación acumulada, gastos financieros y aportes sociales, detallando las modificaciones contables realizadas.')
     .titulo-tres
@@ -2133,94 +2132,99 @@
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 41.
+          h5 Tabla 43.
           span Cierre de la cuenta de ingresos
         .tabla-a.color-acento-botones.mb-5
           table
             thead(style="background-color: #FD9826 ").border-0
               tr
                 th Cuenta
-                th Débito
-                th Crédito
+                th Debe
+                th Haber
             tbody
               tr
-                td Ingresos ordinarios
-
+                td.text-left Ingresos ordinarios
                 td.text-right $42.120.000
-
-                td
+                td.text-right -
               tr
-                td Ingresos financieros
+                td.text-left Ingresos financieros
                 td.text-right $429.000
-
-                td
+                td.text-right -
               tr
-                td Utilidad o pérdida
-                td 
+                td.text-left Utilidad o pérdida
+                td.text-right - 
                 td.text-right $42.549.000
               tr
-                td TOTAL
-                td.text-right $42.549.000
-                td.text-right $42.549.000
+                td.fw-bold TOTAL
+                td.text-right.fw-bold $42.549.000
+                td.text-right.fw-bold $42.549.000
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 42.
+          h5 Tabla 44.
           span Cierre de la cuenta de gastos
         .tabla-a.color-acento-botones.mb-5
           table
             thead(style="background-color: #FD9826 ").border-0
               tr
                 th Cuenta
-                th Débito
-                th Crédito
+                th Debe
+                th Haber
             tbody
               tr
-                td Utilidad o pérdida
-                td $29.259.167
-                td
+                td.text-left Utilidad o pérdida
+                td.text-right $29.259.167
+                td.text-right -
               tr
-                td Gastos de personal
-                td 
+                td.text-left Gastos de personal
+                td.text-right - 
                 td.text-right $4.160.000
               tr
-                td Gastos arrendamiento
-                td 
+                td.text-left Gastos arrendamiento
+                td.text-right - 
                 td.text-right $585.000
               tr
-                td Gastos depreciación
-                td 
+                td.text-left Gastos depreciación
+                td.text-right - 
                 td.text-right $1.094.167
               tr
-                td Gastos financieros
-                td 
+                td.text-left Gastos financieros
+                td.text-right - 
                 td.text-right $670.000
+              tr
+                td.text-left Costo de ventas
+                td.text-right - 
+                td.text-right $22.750.000
+              tr
+                td.fw-bold TOTAL
+                td.text-right.fw-bold $29.259.167
+                td.text-right.fw-bold $29.259.167
     .titulo-tres
       h3 Cierre de la cuenta de utilidad o pérdida
     p.mb-4 A continuación, se observa la hoja de trabajo, teniendo en cuenta la información del ejemplo anterior:
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 43.
+          h5 Tabla 45.
           span Cierre de la cuenta de utilidad o pérdida
         .tabla-a.color-acento-botones.mb-5
           table
             thead(style="background-color: #FD9826 ").border-0
               tr
                 th Cuenta
-                th Débito
-                th Crédito
+                th Debe
+                th Haber
             tbody
               tr
-                td Utilidad del ejercicio	
+                td.text-left Utilidad o pérdida	
                 td.text-right $13.289.833	
-                td
+                td.text-right -
               tr
-                td Gastos de personal	
-                td 
+                td.text-left Gastos de personal	
+                td.text-right - 
                 td.text-right $13.289.833
               tr
-                td Total	
-                td.text-right $13.289.833	
-                td.text-right $13.289.833
+                td.fw-bold Total	
+                td.text-right.fw-bold $13.289.833	
+                td.text-right.fw-bold $13.289.833
     p.mb-4 El ejercicio presentó utilidad, teniendo en cuenta que los ingresos superaron los costos y gastos; por lo tanto, se realizó el registro crédito aumentando el patrimonio. En el caso en que los ingresos sean inferiores a los costos y gastos, se refleja una pérdida en el ejercicio, disminuyendo el patrimonio (débito).
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -2238,119 +2242,119 @@
             tbody
               tr
                 td 1105
-                td Caja
-                td 
+                td.text-left Caja
+                td.text-right -
                 td.text-right $409.000
               tr
                 td 110
-                td Bancos
-                td 
+                td.text-left Bancos
+                td.text-right -
                 td.text-right $17.680.000
               tr
                 td 1305
-                td Clientes
-                td 
+                td.text-left Clientes
+                td.text-right -
                 td.text-right $5.070.000
               tr
                 td 1365
-                td Cuentas por cobrar a trabajadores
-                td 
+                td.text-left Cuentas por cobrar a trabajadores
+                td.text-right -
                 td.text-right $520.000
               tr
                 td 1435
-                td Inventarios
-                td 
+                td.text-left Inventarios
+                td.text-right -
                 td.text-right $32.500.000
               tr
                 td 1524
-                td Equipo de oficina
-                td 
+                td.text-left Equipo de oficina
+                td.text-right -
                 td.text-right $6.500.000
               tr
                 td 1540
-                td Flota y equipo de transporte
-                td 
+                td.text-left Flota y equipo de transporte
+                td.text-right -
                 td.text-right $62.400.000
               tr
                 td 1592
-                td Depreciación acumulada
+                td.text-left Depreciación acumulada
                 td.text-right -
                 td.text-right -
               tr
                 td 1705
-                td Gastos pagados por anticipado
+                td.text-left Gastos pagados por anticipado
                 td 
                 td.text-right $1.170.000
               tr
                 td 2105
-                td Obligaciones nacionales
+                td.text-left Obligaciones nacionales
                 td.text-right -
                 td.text-right -
               tr
                 td 2205
-                td Proveedores nacionales
+                td.text-left Proveedores nacionales
                 td.text-right -
                 td.text-right -
               tr
                 td 2408
-                td Impuestos sobre las ventas por pagar
+                td.text-left Impuestos sobre las ventas por pagar
                 td.text-right -
                 td.text-right -
               tr
                 td 2705
-                td Ingresos recibidos por anticipado
+                td.text-left Ingresos recibidos por anticipado
                 td.text-right -
                 td.text-right -
               tr
                 td 3115
-                td Aportes sociales
+                td.text-left Aportes sociales
                 td.text-right -
                 td.text-right -
               tr
                 td 4135
-                td Ingresos ordinarios
+                td.text-left Ingresos ordinarios
                 td.text-right -
                 td.text-right -
               tr
                 td 4210
-                td Ingresos Financieros
+                td.text-left Ingresos Financieros
                 td.text-right -
                 td.text-right -
               tr
                 td 5105
-                td Gastos de personal
-                td 
-                td $4.160.000
+                td.text-left Gastos de personal
+                td.text-right - 
+                td.text-right $4.160.000
               tr
                 td 5120
-                td Gastos arrendamiento
+                td.text-left Gastos arrendamiento
                 td.text-right -
                 td.text-right -
               tr
                 td 5160
-                td Gastos depreciación
+                td.text-left Gastos depreciación
                 td.text-right -
                 td.text-right -
               tr
                 td 5305
-                td Gastos Financieros
-                td 
-                td $585.000
+                td.text-left Gastos Financieros
+                td.text-right - 
+                td.text-right $585.000
               tr
                 td 6135
-                td Costo de ventas
-                td 
-                td $22.750.000
+                td.text-left Costo de ventas
+                td.text-right - 
+                td.text-right $22.750.000
               tr
                 td 3605
-                td Utilidad del ejercicio
+                td.text-left Utilidad del ejercicio
                 td.text-right -
                 td.text-right -
               tr.fw-bold
                 td 
-                td TOTAL
+                td.fw-bold TOTAL
                 td.text-right -
-                td.text-right $153.744.000
+                td.text-right.fw-bold $153.744.000
 
 
 

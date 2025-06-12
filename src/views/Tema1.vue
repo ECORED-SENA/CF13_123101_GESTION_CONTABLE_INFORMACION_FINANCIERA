@@ -482,7 +482,7 @@
                 td.text-right $2.500.000
               tr
                 td.text-left Impuestos recuperables
-                td.text-right $ 0
+                td.text-right $0
               tr.fw-bold
                 td.text-left Total costo adquisición
                 td.text-right $2.500.000
@@ -1032,8 +1032,8 @@
           table
             thead(style="background-color: #FD9826 ").border-0
               tr
-                th Años
-                th Factor
+                th Año
+                th Unidades producidas
             tbody
               tr
                 td 1
@@ -1374,11 +1374,11 @@
                 th Haber
             tbody
               tr
-                td.text-left Gasto intangible - Software
+                td.text-left Gasto intangible - <em>software</em>
                 td.text-right $277.778
                 td.text-right -
               tr
-                td.text-left Activo intangible - software
+                td.text-left Activo intangible - <em>software</em>
                 td.text-right -
                 td.text-right $277.778
               tr
@@ -1735,7 +1735,7 @@
               p.mb-0 En ocasiones se reflejan valores reconocidos en los libros contables y no registrados por la entidad financiera: este caso sucede cuando existen cheques pendientes de cobro o que han sido devueltos, también se presentan remesas en tránsito.
                 br
                 br
-                |En el extracto bancario existe una nota débito por concepto de un cheque girado por el cliente Carlos Téllez por valor de $ 600.000, consignado a la empresa contables SAS y devuelto por la entidad financiera por fondos insuficientes, por lo anterior, el importe no se encuentra registrado en los libros contables.
+                |En el extracto bancario existe una nota débito por concepto de un cheque girado por el cliente Carlos Téllez por valor de $600.000, consignado a la empresa contables SAS y devuelto por la entidad financiera por fondos insuficientes, por lo anterior, el importe no se encuentra registrado en los libros contables.
                 br
                 br
                 |Asiento de ajuste.
@@ -1768,7 +1768,7 @@
             .col-lg-5.mb-lg-0.mb-3
               h5 Ejemplo 4: Consignación realizada por el cliente y no registrada
 
-              p.mb-0 Al realizar la confrontación del extracto bancario con los libros de bancos, se observa que el extracto relaciona una nota crédito por valor de $ 550.000, correspondiente a la consignación realizada por el cliente Jorge Medina y no registrada por la empresa.
+              p.mb-0 Al realizar la confrontación del extracto bancario con los libros de bancos, se observa que el extracto relaciona una nota crédito por valor de $550.000, correspondiente a la consignación realizada por el cliente Jorge Medina y no registrada por la empresa.
                 br
                 br
                 |Se realiza la contabilización aumentando la cuenta de bancos y disminuyendo la cuenta de clientes.
@@ -1813,7 +1813,7 @@
             .col-lg-5.mb-lg-0.mb-3
               h5 Ejemplo 5: registro de menor valor de la consignación
 
-              p.mb-0 La empresa contable SAS realiza una consignación en la cuenta corriente por valor de $ 1.000.000; sin embargo, el registro contable aparece por $ 100.000.
+              p.mb-0 La empresa contable SAS realiza una consignación en la cuenta corriente por valor de $1.000.000; sin embargo, el registro contable aparece por $100.000.
                 br
                 br
                 |El ajuste se realiza por la diferencia, aumentado la cuenta de bancos.
@@ -1848,7 +1848,7 @@
             p.mb-4.fw-bold 
             .col-lg-5.mb-lg-0.mb-3
               h5 Ejemplo 6: registro de mayor valor de la consignación
-              p.mb-0 La empresa contable SAS realiza una consignación en la cuenta corriente por valor de $ 580.000; sin embargo, el registro contable aparece por $ 850.000.
+              p.mb-0 La empresa contable SAS realiza una consignación en la cuenta corriente por valor de $580.000; sin embargo, el registro contable aparece por $850.000.
                 br
                 br
                 |Asiento de ajuste.
@@ -1892,7 +1892,7 @@
             .col-lg-5.mb-lg-0.mb-3
               h5 Ejemplo 7: registro de menor valor del cheque
 
-              p.mb-0 La empresa contable SAS gira un cheque para cancelar mantenimiento de equipo por valor de $ 810.000; sin embargo, el registro contable aparece por $ 180.000.
+              p.mb-0 La empresa contable SAS gira un cheque para cancelar mantenimiento de equipo por valor de $810.000; sin embargo, el registro contable aparece por $180.000.
                 br
                 br
                 |Asiento de ajuste.
@@ -1924,7 +1924,7 @@
             p.mb-4.fw-bold 
             .col-lg-5.mb-lg-0.mb-3
               h5 Ejemplo 8: registro de mayor valor del cheque:
-              p.mb-0 La empresa contable SAS gira un cheque por valor de $ 3.200.000, para cancelar a los proveedores la mercancía; sin embargo, el registro contable aparece por $ 3.800.000.
+              p.mb-0 La empresa contable SAS gira un cheque por valor de $3.200.000, para cancelar a los proveedores la mercancía; sin embargo, el registro contable aparece por $3.800.000.
                   br
                   br
                   |Asiento de ajuste.
@@ -2090,11 +2090,11 @@
           li.d-flex
             .lista-ol--cuadro__vineta
               span 1
-            p.mb-0 Al realizar el arqueo de caja se observa que existe un faltante injustificado por valor de $ 35.000.
+            p.mb-0 Al realizar el arqueo de caja se observa que existe un faltante injustificado por valor de $35.000.
           li.d-flex
             .lista-ol--cuadro__vineta
               span 2
-            p.mb-0 La empresa no ha realizado el registro del GMF por valor de $ 85.000 de acuerdo con la nota débito reflejada en el extracto bancario.
+            p.mb-0 La empresa no ha realizado el registro del GMF por valor de $85.000 de acuerdo con la nota débito reflejada en el extracto bancario.
           li.d-flex
             .lista-ol--cuadro__vineta
               span 3
@@ -2229,7 +2229,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 44.
+          h5 Tabla 46.
           span Balance final de saldos contables
         .tabla-a.color-acento-botones.mb-5
           table

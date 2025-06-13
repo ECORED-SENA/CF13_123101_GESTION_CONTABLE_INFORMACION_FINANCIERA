@@ -1306,10 +1306,10 @@
       .col-lg-11
         .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #FED6A8")
           h4.mb-0 Ejemplo
-        p.mb-4 El 1 de julio de 2020 la empresa Contable SAS inicia el desarrollo de un software, por lo tanto, incurre en los siguientes gastos:
+        p.mb-4 El 1 de julio de 2020 la empresa Contable SAS inicia el desarrollo de un <em>software</em>, por lo tanto, incurre en los siguientes gastos:
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 5.
-      span Distribución de costos en el desarrollo de software
+      span Distribución de costos en el desarrollo de <em>software</em>
     img.mb-4(src='@/assets/curso/temas/31b.png', alt='')
     p.mb-4 El #[em software] estará apto para su uso el 01 de diciembre de 2020. Se estima una vida útil de 3 años. Se solicita realizar la medición inicial y la amortización del primer mes.
     .titulo-tres
